@@ -21,6 +21,7 @@ function cargar(div, id_doc)
     xhr.open('GET', 'md/' + id_doc + '.md', true);
     xhr.onreadystatechange = function () {
       if(xhr.readyState === 4 && xhr.status === 200) {
+        alert("OK");
         var converter = new showdown.Converter(),  // Utilizamos Showdown para convertir Markdown a HTML
             markdownText = xhr.responseText,
             html = converter.makeHtml(markdownText);
