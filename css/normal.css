@@ -110,26 +110,11 @@ h2, h3
     margin-bottom: 20px;
 }
 
-.col2
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-}
-
-.col3
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-}
-
 .submenu
 {
     background-color: #14213d;
     color: #ffffff;
     border-radius: 10px;
-    margin-left: 50px;
 }
 
 .contenido
