@@ -1,0 +1,11 @@
+title: Algoritmia
+description: > # this means to ignore newlines until "baseurl:"
+  Materiales sobre algoritmia y algoritmos básicos y avanzados. 
+  Escrito por Nacho Iborra, profesor de ciclos formativos de 
+  Formación Profesional en el I.E.S. San Vicente 
+  (San Vicente del Raspeig, Alicante, España)
+baseurl: "/algoritmia" # the subpath of your site, e.g. /blog
+url: "http://nachoiborraIES.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
