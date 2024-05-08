@@ -1,3 +1,5 @@
 # Introducción a los algoritmos intermedios
 
 En esta sección vamos a practicar con algunos algoritmos intermedios, donde ya se exigirá cierto procesamiento de los datos con los que vamos a trabajar para adecuarlos al problema a tratar, o cierto análisis de la estrategia a seguir para conseguir un resultado eficiente.
+
+En muchas ocasiones encontraremos distintos algoritmos para resolver un mismo problema. Por ejemplo, para ordenar una colección de datos alfabéticamente podemos hacerlo de varias formas. A veces nos puede interesar no sólo encontrar el algoritmo que resuelve el problema, sino que éste sea apropiado. La idoneidad de un algoritmo se mide atendiendo a varios factores, tales como su tiempo de ejecución (serán mejores los algoritmos que tarden menos en ejecutarse) o los recursos que necesitan (serán mejores los algoritmos que consuman menos recursos). Hablaremos de estos conceptos en esta sección.
