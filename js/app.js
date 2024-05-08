@@ -10,6 +10,7 @@ function mostrar(id)
         }
         document.getElementById("opciones_" + id).style.display = "block";
         idActual = id;
+        cargar('cont_' + id, id + '_01');
     }
 }
 
