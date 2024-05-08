@@ -17,162 +17,32 @@ title: Algoritmia
 </div>
 
 <nav>
-    <div class="menu" id="introduccion"><a href="javascript:mostrar('introduccion')">Nociones elementales</a></div>
-    <div class="menu" id="redes"><a href="javascript:mostrar('redes')">Técnicas de IA</a></div>
-    <div class="menu" id="otros"><a href="javascript:mostrar('otros')">Otros aspectos</a></div>
+    <div class="menu" id="ppasos"><a href="javascript:mostrar('ppasos')">Primeros pasos</a></div>
+    <div class="menu" id="nivel1"><a href="javascript:mostrar('nivel1')">Algoritmos básicos</a></div>
+    <div class="menu" id="nivel2"><a href="javascript:mostrar('nivel2')">Algoritmos intermedios</a></div>
+    <div class="menu" id="nivel3"><a href="javascript:mostrar('nivel3')">Algoritmos avanzados</a></div>
 </nav>
 
-<div class="seccion" id="opciones_introduccion">
-    <h2>Nociones elementales</h2>
-    <p>Para comenzar a introducirnos en el campo de la Inteligencia Artificial, conviene estar familiarizado con unos conceptos
-       que leeremos durante todo el curso, así como con los lenguajes y herramientas que vamos a utilizar.</p>
-    <div class="col3">
-        <a class="apartado" href="md/es/01a" target="_blank">1. Primer contacto con la IA</a>
-        <a class="apartado" href="md/es/01b" target="_blank">2. Conceptos básicos de IA</a>
-        <a class="apartado" href="md/es/01c" target="_blank">3. Lenguajes para trabajar con IA</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/python/md/es/01" target="_blank">4. Primeros pasos con Python</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/r/md/es/01" target="_blank">5. Primeros pasos con R</a>
-    </div>
-    <h3>Fundamentos de programación</h3>
-    <p>Para poder desarrollar aplicaciones basadas en inteligencia artificial es necesario tener unas nociones básicas (y no tan básicas) de programación. A continuación se tienen apuntes de programación en diferentes lenguajes apropiados para el campo de la inteligencia artificial</p>
-    <h4>Programación general con Python</h4>
-    <p>En cuanto a lenguajes de programación, a día de hoy <strong>Python</strong> es el más ampliamente utilizado. Para empezar
-       a familiarizarnos con este lenguaje, su sintaxis y las posibilidades que ofrece, tenemos estos recursos.</p>
-    <div class="col3">
-        <a class="apartado" href="https://nachoiborraies.github.io/python/md/es/02" target="_blank">1. Elementos básicos del lenguaje</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/python/md/es/03" target="_blank">2. Estructuras de control</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/python/md/es/04" target="_blank">3. Cadenas de texto</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/python/md/es/06" target="_blank">4. Arrays y listas</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/python/md/es/05" target="_blank">5. Diccionarios y otras colecciones</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/python/md/es/07" target="_blank">6. Funciones</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/python/md/es/08" target="_blank">7. Clases y objetos</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/python/md/es/09" target="_blank">8. Módulos</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/python/md/es/10" target="_blank">9. Acceso a ficheros</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/python/md/es/16" target="_blank">10. Gestión de fechas y horas</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/python/md/es/14" target="_blank">11. Acceso a bases de datos</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/python/md/es/17" target="_blank">12. Desarrollo GUI con <em>TKinter</em></a>
-    </div>    
-    <h4>Programación general con R</h4>
-    <p>R es otro lenguaje de programación ampliamente usado en el análisis estadístico de datos, y también para algunas tareas de <em>machine learning</em>. Aquí veremos los aspectos más relevantes del lenguaje, para familiarizarnos con él.</p>
-    <div class="col3">
-        <a class="apartado" href="https://nachoiborraies.github.io/r/md/es/02" target="_blank">1. Elementos básicos del lenguaje</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/r/md/es/03" target="_blank">2. Estructuras de control</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/r/md/es/04" target="_blank">3. Cadenas de texto</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/r/md/es/05" target="_blank">4. Vectores, matrices y listas</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/r/md/es/06" target="_blank">5. Diccionarios y otras colecciones</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/r/md/es/07" target="_blank">6. Funciones</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/r/md/es/08" target="_blank">7. Módulos y gestión de fechas/horas</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/r/md/es/09" target="_blank">8. Acceso a ficheros</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/r/md/es/14" target="_blank">9. Acceso a bases de datos</a>
-    </div>
-
-    <h3>Análisis y tratamiento de datos</h3>
-    <p>Ahora que hemos tratado los aspectos importantes de los lenguajes de programación vamos a dar un "aperitivo" de lo que luego vamos a necesitar en gran parte de las aplicaciones basadas en inteligencia artificial. Para que un programa tome una decisión necesita disponer de unos datos de entrada sobre los que tomarla, y esos datos es necesario que sean los adecuados, y estén en el formato correcto. Para este propósito podemos utilizar diversos módulos o librerías que nos van a ayudar a recopilar información, filtrarla y formatearla para el propósito del programa en cuestión.</p>
-    <p>Para empezar, vamos a explicar algunas nociones básicas relacionadas con el análisis de datos</p>
-
-    <a class="apartado" href="md/es/01d" target="_blank">Introducción al análisis de datos</a>
-
-    <p>A continuación veremos cómo afrontar estas etapas en distintos lenguajes, con las librerías relevantes de cada uno.</p>
-
-    <h4><em>Data science</em> con Python</h4>
-    <p>Comenzaremos analizando las librerías y procesos más habituales en lenguaje Python, que es, quizá, el más habitual para este tipo de procesos</p>
-    <div class="col2">
-        <a class="apartado" href="https://nachoiborraies.github.io/python/md/es/11" target="_blank">1. La librería <em>NumPy</em></a>
-        <a class="apartado" href="https://nachoiborraies.github.io/python/md/es/13" target="_blank">2. La librería <em>Pandas</em></a>
-        <a class="apartado" href="https://nachoiborraies.github.io/python/md/es/12" target="_blank">3. Representaciones gráficas de datos</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/python/md/es/15" target="_blank">4. Ejemplos de tratamiento de datos</a>
-    </div>
-
-    <h4><em>Data science</em> con R</h4>
-    <p>Pasamos ahora a explicar las librerías y métodos más importantes para el tratamiento y análisis de datos en R, con varios ejemplos.</p>
-    <div class="col3">
-        <a class="apartado" href="https://nachoiborraies.github.io/r/md/es/10" target="_blank">1. Análisis de datos</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/r/md/es/11" target="_blank">2. Representaciones gráficas</a>
-        <a class="apartado" href="https://nachoiborraies.github.io/r/md/es/12" target="_blank">3. Ejemplos de tratamiento de datos</em></a>
-    </div>
-
-</div>
-
-<div class="seccion" id="opciones_redes">
-    <h2>Técnicas de IA</h2>
-    <p>Como se ha comentado en el documento de <a href="md/es/01b" target="_blank">conceptos básicos</a>, existen varias ramas dentro del mundo de la inteligencia artificial, en las que se aplican diferentes técnicas o estrategias para resolver problemas. En esta sección veremos algunas de ellas, catalogándolas en diferentes categorías.</p>
-
-    <h3>Técnicas básicas</h3>
-
-    <p>Comenzaremos viendo algunas técnicas más o menos básicas. Comenzaremos explicando algunos principios que tenemos que tener en cuenta en (casi) todo proceso basado en IA.</p>
-
-    <div>
-        <a class="apartado" href="md/es/02a" target="_blank">Técnicas y principios básicos de la IA</a>
-    </div>
-
-    <h4>Técnicas deterministas</h4>
-    <p>Las técnicas deterministas producen siempre el mismo resultado final a partir de un estado determinado. Existen varias de estas técnicas, y veremos aquí sólo algunos ejemplos.</p>
-    <div class="col2">
-        <a class="apartado" href="md/es/02b" target="_blank">1. Algoritmo MiniMax</a>
-        <a class="apartado" href="md/es/02c" target="_blank">2. Programación lógica</a>
-    </div>
-
-    <h4>Técnicas estocásticas</h4>
-    <p>Las técnicas estocásticas no producen siempre el mismo resultado final a partir de un estado determinado, porque en ellas interviene de un modo u otro la aleatoriedad. Por ejemplo, a la hora de calcular la probabilidad o no de que algo suceda. Veremos a continuación algunos ejemplos de estas técnicas; estos ejemplos concretos se englobarían dentro de la rama de <em>aprendizaje por refuerzo</em></p>
-    <p>El aprendizaje por refuerzo es un subgrupo de técnicas dentro del <em>machine learning</em> mediante las que un programa aprende a mejorar su funcionamiento a base de recompensas en cada acción realizada. Veremos algunas de las técnicas más habituales aquí</p>
-    <div class="col3">
-        <a class="apartado" href="md/es/03b" target="_blank">1. Muestreo de Thompson</a>
-        <a class="apartado" href="md/es/03d" target="_blank">2. <em>Q-learning</em></a>
-        <a class="apartado" href="md/es/03c" target="_blank">3. Algoritmos genéticos</a>
-    </div>
-
-    <h3>Machine learning</h3>
-    <p>El <em>machine learning</em> es quizá, a día de hoy, la rama más importante dentro de la inteligencia artificial. Comprende una serie de técnicas que hacen que un sistema aprenda por sí mismo a dar una solución apropiada a un problema. Veremos algunos de los tipos de <em>machine learning</em> existentes, con sus técnicas más habituales</p>
-
-    <div>
-        <a class="apartado" href="md/es/03a" target="_blank">Introducción al <em>machine learning</em></a>
-    </div>
-
-    <h3>Deep learning</h3>
-    <p>El <em>deep learning</em> es una subcategoría dentro del <em>machine learning</em> que incluye técnicas que realizan un análisis más detallado o profundo de los datos de entrada para producir un resultado. Fundamentalmente hablaremos de redes neuronales profundas, pero existen distintos tipos y utilidades. Comentaremos aquí algunos de los principales.</p>
-
-    <div>
-        <a class="apartado" href="md/es/04a" target="_blank">Introducción a las redes neuronales</a>
-    </div>
-
-    <h4>Deep learning con Keras/TensorFlow</h4>
-    
-    <p>Keras es una de las librerías más populares y sencillas para trabajar con redes neuronales, y su integración con la librería TensorFlow de Google a partir de su versión 2 le ha dado aún más popularidad. En este apartado veremos cómo utilizar ambas para crear distintos tipos de redes neuronales.</p>
-
-    <div class="col2">
-        <a class="apartado" href="md/es/04b" target="_blank">1. Implementación básica de redes neuronales</a>
-        <a class="apartado" href="md/es/04c" target="_blank">2. Desarrollo de redes multicapa</a>
-        <a class="apartado" href="md/es/04d" target="_blank">3. Redes neuronales convolucionales</a>
-        <a class="apartado" href="md/es/04f" target="_blank">4. Redes neuronales recurrentes</a>
+<div class="seccion" id="opciones_ppasos">
+    <div class="row">
+        <div class="col-sm-4 submenu">
+            <h2>Primeros pasos</h2>
+            <a class="apartado" href="javascript::cargar('01')">1. ¿Qué es la algoritmia?</a>
+            <a class="apartado" href="javascript::cargar('02')">2. Recursos para aprender</a>
+        </div>
+        <div class="col-sm-8 contenido">
+            Contenido por concretar
+        </div>
     </div>
 </div>
 
-<div class="seccion" id="opciones_otros">
-    <h2>Otros aspectos</h2>
-    <p>En esta sección cubriremos otros aspectos también relacionados con el desarrollo de aplicaciones basadas en inteligencia artificial, como el uso de modelos pre-entrenados o el acceso a servicios en la nube, entre otras cosas.</p>
+<div class="seccion" id="opciones_nivel1">
+</div>
 
-    <h3>Modelos pre-entrenados y en la nube</h3>
-    <p>El uso de modelos pre-entrenados puede suponer un ahorro de tiempo considerable, puesto que utilizaremos un modelo ya hecho que se puede ajustar al problema que pensamos resolver. Estos modelos suelen estar disponibles de forma <em>online</em>, bien a través de alguna web que permite acceder a ellos mediante una API, o bien alojados en algún proveedor <em>cloud</em>.</p>
-    <div class="col2">
-        <a class="apartado" href="md/es/05a" target="_blank">1. Modelos pre-entrenados en la web</em></a>
-        <a class="apartado" href="md/es/05b" target="_blank">2. Introducción al <em>cloud computing</em></a>
-        <a class="apartado" href="md/es/05c" target="_blank">3. Primeros pasos para trabajar con IA en Azure y AWS</a>
-        <a class="apartado" href="md/es/05d" target="_blank">4. Otras plataformas <em>cloud</em></a>
-        <a class="apartado" href="md/es/05e" target="_blank">5. Modelos para procesamiento de imágenes en Azure</a>
-        <a class="apartado" href="md/es/05e2" target="_blank">6. Modelos para procesamiento de imágenes en AWS</a>
-        <a class="apartado" href="md/es/05f" target="_blank">7. Otros modelos de Azure</a>
-        <a class="apartado" href="md/es/05f2" target="_blank">8. Otros modelos de AWS</a>
-    </div>
+<div class="seccion" id="opciones_nivel2">
+</div>
 
-    <h3>Herramientas de modelado y despliegue</h3>
-    <p>En este apartado echaremos un vistazo a algunas de las herramientas más relevantes para desarrollar modelos basados en IA. Algunas de ellas permitirán realizar la tarea previa de análisis y limpieza de datos de forma sencilla y visual, y otras nos ayudarán a desarrollar el modelo y/o desplegarlo en distintas plataformas.</p>
-    <div class="col2">
-        <a class="apartado" href="md/es/06a" target="_blank">1. Herramientas de modelado: KNIME</em></a>
-        <a class="apartado" href="md/es/06b" target="_blank">2. Despliegue de modelos propios en Azure</em></a>
-        <a class="apartado" href="md/es/06c" target="_blank">3. Despliegue de modelos propios en AWS</em></a>
-        <a class="apartado" href="md/es/06d" target="_blank">4. Despliegue de modelos en servidor local usando Flask</em></a>
-    </div>
-
+<div class="seccion" id="opciones_nivel3">
 </div>
 
 <div><p>&nbsp;</p></div>

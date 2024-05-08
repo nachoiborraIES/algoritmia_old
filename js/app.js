@@ -12,3 +12,8 @@ function mostrar(id)
         idActual = id;
     }
 }
+
+function cargar(id)
+{
+    alert(id);
+}

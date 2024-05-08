@@ -53,9 +53,9 @@ h1
 {
     display:block;
     padding: 5px;
-    background-color: #caf0f8;
+    background-color: #14213d;
     text-decoration: none;
-    color: #03045e;
+    color: #FFFFFF;
     border-radius: 5px;
     margin-bottom: 5px;
     transition: background-color 1s ease-out, color 1s ease-out; 
@@ -63,8 +63,8 @@ h1
 
 .seccion a.apartado:hover
 {
-    color: #caf0f8;
-    background-color: #03045e;
+    color: #000000;
+    background-color: #fca311;
 }
 
 .pie 
@@ -82,7 +82,7 @@ h1
 nav
 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
 }
 
@@ -122,4 +122,15 @@ h2, h3
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
+}
+
+.submenu
+{
+    background-color: #14213d;
+}
+
+.contenido
+{
+    border: 1px double #fca311;
+    border-radius: 5px;
 }
