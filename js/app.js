@@ -16,4 +16,16 @@ function mostrar(id)
 function cargar(div, id_doc)
 {
     alert(id_doc);
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', '/md/' + id_doc + '.md', true);
+    xhr.onreadystatechange = function () {
+      if(xhr.readyState === 4 && xhr.status === 200) {
+        var converter = new showdown.Converter(),  // Utilizamos Showdown para convertir Markdown a HTML
+            markdownText = xhr.responseText,
+            html = converter.makeHtml(markdownText);
+        document.getElementById(div).innerHTML = html;
+      }
+    };
+    xhr.send();    
 }
