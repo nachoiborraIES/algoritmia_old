@@ -16,16 +16,13 @@ function mostrar(id)
 function cargar(div, id_doc)
 {
     alert(id_doc);
-    var resultado = null;
-    $.ajax( { url: 'md/' + id_doc + '.md', 
-        type: 'get', 
-        dataType: 'html',
-        async: false,
-        success: function(data) { resultado = data; } 
+    var markdownFile = 'md/' + id_doc + '.md';  
+    // Cargar el contenido del archivo Markdown
+    $.get(markdownFile, function(data) {
+      // Convertir Markdown a HTML
+      var converter = new showdown.Converter();
+      var html = converter.makeHtml(data);
+      // Insertar el HTML resultante en el div
+      $('#' + div).html(html);
     });
-
-    resultado = markdown.toHTML( resultado );
-    document.getElementById(div).innerHTML = resultado;
-
-    alert("Fin");
 }
