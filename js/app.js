@@ -13,7 +13,7 @@ function mostrar(id)
     }
 }
 
-function cargar(id)
+function cargar(div, id_doc)
 {
-    alert(id);
+    alert(id_doc);
 }
