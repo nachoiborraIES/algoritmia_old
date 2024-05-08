@@ -16,7 +16,6 @@ function mostrar(id)
 
 function cargar(div, id_doc)
 {
-    alert(id_doc);
     var markdownFile = 'md/' + id_doc + '.md';  
     // Cargar el contenido del archivo Markdown
     $.get(markdownFile, function(data) {
@@ -25,6 +24,5 @@ function cargar(div, id_doc)
       var html = converter.makeHtml(data);
       // Insertar el HTML resultante en el div
       $('#' + div).html(html);
-      alert("Fin");
     });
 }
