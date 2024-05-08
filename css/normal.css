@@ -123,3 +123,13 @@ h2, h3
     border: 3px double #fca311;
     border-radius: 10px;
 }
+
+.logo_lenguaje
+{
+    width: 150px;
+}
+
+.fondo
+{
+    background-color: #456f9c;
+}
