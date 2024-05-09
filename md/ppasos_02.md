@@ -105,15 +105,11 @@ fd 40 rt 90 fd 50
 Además, podemos utilizar los cursores de flecha arriba/abajo para movernos por el historial de instrucciones escritas y volverlas a ejecutar si queremos.
 
 <div class="ejercicio">
-
-> **Ejercicio 1:**
-> 
-> Utiliza las instrucciones anteriores para dibujar estas dos figuras. Puedes guardarte después las instrucciones elegidas en ficheros de texto para tenerlas disponibles.
->
-> <div align="center">
->    <img src="/algoritmia/img/logo_03.png" width="80%">
-> </div>
-
+    <p><strong>Ejercicio 1:</strong></p>
+    <p>Utiliza las instrucciones anteriores para dibujar estas dos figuras. Puedes guardarte después las instrucciones elegidas en ficheros de texto para tenerlas disponibles</p>
+    <div align="center">
+        <img src="/algoritmia/img/logo_03.png" width="80%">
+    </div>
 </div>
 
 ## 3. Colores y tamaños
@@ -144,13 +140,13 @@ Podemos también cambiar colores o grosor del trazo, y rellenar figuras siempre 
     </tr>
 </table>
 
-> **Ejercicio 2:**
-> 
-> Trata de crear este pentágono con color azul. PISTA: si sumamos todos los ángulos internos de un pentágono, suman 540 grados.
-> 
-> <div align="center">
->    <img src="/algoritmia/img/logo_04.png" width="20%">
-> </div>
+<div class="ejercicio">
+    <p><strong>Ejercicio 2:</strong></p>
+    <p>Trata de crear este pentágono con color azul. <strong>PISTA:</strong> si sumamos todos los ángulos internos de un pentágono, suman 540 grados.</p>
+    <div align="center">
+        <img src="/algoritmia/img/logo_04.png" width="20%">
+    </div>
+</div>
 
 ## 4. Repetir instrucciones
 
@@ -162,13 +158,13 @@ Logo dispone de la instrucción `repeat` que nos va a permitir repetir un conjun
 repeat 4 [fd 100 rt 90]
 ```
 
-> **Ejercicio 3:**
-> 
-> Utilizando la instrucción *repeat* junto con otras que hemos visto anteriormente, trata de reproducir estas figuras:
->
-> <div align="center">
->    <img src="/algoritmia/img/logo_05.png" width="80%">
-> </div>
+<div class="ejercicio">
+    <p><strong>Ejercicio 3:</strong></p>
+    <p>Utilizando la instrucción *repeat* junto con otras que hemos visto anteriormente, trata de reproducir estas figuras:</p>
+    <div align="center">
+        <img src="/algoritmia/img/logo_05.png" width="80%">
+    </div>
+</div>
 
 ## 5. Utilizar variables
 
@@ -190,15 +186,14 @@ También podemos reutilizar la instrucción *make* para modificar el valor previ
 make "numero :numero + 10
 ```
 
-> **Ejercicio 4:**
-> 
-> Utilizando variables y bucles, trata de representar estas figuras:
-> 
-> <div align="center">
->    <img src="/algoritmia/img/logo_06.png" width="70%">
-> </div>
->
-> **AYUDA**: para dibujar un círculo, podemos avanzar una pequeña cantidad y girar un pequeño número de grados, y repetir esto un número de veces, como aquí: `repeat 120 [fd 1 rt 3]`. Si aumentamos el paso o reducimos el ángulo obtenemos un círculo más grande, y la operación contraria (reducir el paso o aumentar el ángulo) nos dará un círculo más pequeño. 
+<div class="ejercicio">
+    <p><strong>Ejercicio 4:</strong></p>
+    <p>Utilizando variables y bucles, trata de representar estas figuras:</p> 
+    <div align="center">
+        <img src="/algoritmia/img/logo_06.png" width="70%">
+    </div>
+    <p><strong>AYUDA:</strong> para dibujar un círculo, podemos avanzar una pequeña cantidad y girar un pequeño número de grados, y repetir esto un número de veces, como aquí: `repeat 120 [fd 1 rt 3]`. Si aumentamos el paso o reducimos el ángulo obtenemos un círculo más grande, y la operación contraria (reducir el paso o aumentar el ángulo) nos dará un círculo más pequeño.</p>
+</div>
 
 ## 5. Introducción a las funciones
 
@@ -238,10 +233,10 @@ Obtendremos esta imagen como resultado:
     <img src="/algoritmia/img/logo_07.png" width="20%">
 </div>
 
-> **Ejercicio 4:**
-> 
-> Trata de dibujar estas figuras empleando funciones:
-> 
-> <div align="center">
->    <img src="/algoritmia/img/logo_08.png" width="60%">
-> </div>
+<div class="ejercicio">
+    <p><strong>Ejercicio 4:</strong></p>
+    <p>Trata de dibujar estas figuras empleando funciones:</p> 
+    <div align="center">
+        <img src="/algoritmia/img/logo_08.png" width="60%">
+    </div>
+</div>
