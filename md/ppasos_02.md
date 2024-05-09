@@ -195,7 +195,7 @@ make "numero :numero + 10
     <p><strong>AYUDA:</strong> para dibujar un círculo, podemos avanzar una pequeña cantidad y girar un pequeño número de grados, y repetir esto un número de veces, como aquí: `repeat 120 [fd 1 rt 3]`. Si aumentamos el paso o reducimos el ángulo obtenemos un círculo más grande, y la operación contraria (reducir el paso o aumentar el ángulo) nos dará un círculo más pequeño.</p>
 </div>
 
-## 5. Introducción a las funciones
+## 6. Introducción a las funciones
 
 En el ejercicio anterior habrás comprobado que necesitamos repetir un conjunto de instrucciones varias veces, cambiando el valor de una variable (por ejemplo, el ángulo a girar). También es posible "ahorrarnos" repetir estas estructuras en el código englobando el conjunto de instrucciones en un módulo llamado normalmente *función*. Simplemente le tenemos que dar un nombre a ese grupo de instrucciones y, cada vez que queramos ejecutarlo, invocamos ese nombre en el programa:
 
