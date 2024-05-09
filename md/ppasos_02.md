@@ -1,37 +1,172 @@
-# Recursos para aprender
+# Probando Logo
 
-En esta sección vamos a echar un vistazo a una serie de recursos externos que utilizaremos para reforzar los conceptos que veremos y practicar con distintos problemas prácticos.
+Antes de entrar en materia sobre el desarrollo y prueba de algoritmos, en esta sesión vamos a dedicarnos a experimentar con una herramienta visual que nos puede dar una idea de a qué nos estamos refiriendo.
 
-<!--
+## 1. ¿Qué es Logo?
 
-Color de fondo Acepta el reto: #456f9c
+Logo es un lenguaje de programación educativo diseñado en 1967, que se ideó para ayudar a la gente a conocer las bases de la programación a través de instrucciones simples que producen un resultado directo en pantalla. Para ello cuenta con un entorno gráfico donde una tortuga se mueve de acuerdo a las instrucciones que le facilitamos, dibujando figuras con su recorrido.
 
--->
+<div align="center">
+    <img src="/algoritmia/img/logo_01.png" width="30%">
+</div>
 
-## Acepta el Reto
+### 1.1. Software necesario
 
-<img src="/algoritmia/img/acepta_el_reto.png" width="100" style="float:left;margin-right:10px;background-color:#456f9c;"> 
+Para poder trabajar con Logo hoy en día contamos con distintas herramientas. Aquí ponemos algunos ejemplos:
 
-**Acepta el Reto** es una fantástica web recopilatoria de problemas o retos de programación, elaborada por los compañeros de la Facultad de Informática de la Universidad Complutense de Madrid. Podemos registrarnos de forma gratuita, y acceder a todo el catálogo de retos que ofrece, que también podemos consultar agrupados por categorías para practicar un concepto en concreto (por ejemplo, el uso de bucles simples). [Aquí](https://aceptaelreto.com/) tenemos la web oficial.
+* **WinLogo**: una antigua aplicación Windows que es aún compatible con versiones recientes. Podemos encontrarla como *MSWLogo* en diversas webs
+* **XLogo**: una versión basada en Java que permite desarrollar programas logo en distintas plataformas. 
+* Intérpretes *online* de Logo, como [este de aquí](https://calormen.com/jslogo/)
 
-La principal "desventaja" que ofrece esta web es que sólo admite que programemos en los lenguajes C, C++ o Java. Pero, por lo demás, es un excelente repositorio para poner a prueba nuestras capacidades.
+En estos apuntes utilizaremos esta última opción para no tener que descargar ni instalar nada en nuestro sistema.
 
-## CodeWars
+<div align="center">
+    <img src="/algoritmia/img/logo_02.png" width="70%">
+</div>
 
-<img src="/algoritmia/img/codewars.svg" width="100" style="float:left;margin-right:10px;"> 
+En la parte inferior hay un cuadro donde escribiremos las instrucciones para mover a la tortuga por el área principal.
 
-**CodeWars** es otra web recopilatoria de problemas de programación con una gran cantidad de retos en inglés. Los agrupa por distintos niveles de dificultad que mide en etapas *kyu*, simulando un *dojo* de artes marciales. Los retos de nivel más bajo son los que tienen mayor numeración *kyu*, y a medida que la dificultad aumenta ascendemos de nivel *kyu*.
+## 2. Instrucciones básicas de movimiento
 
-En *CodeWars* podemos filtrar los retos que nos interesan por distintos criterios: nivel de dificultad, lenguaje de programación en que queremos intentarlo, temática (por ejemplo, retos sobre gestión de cadenas de texto), etc. [Aquí](https://www.codewars.com) tenemos el enlace a la web oficial para registrarnos.
+Logo dispone de este conjunto de instrucciones básicas para mover la tortuga:
 
-## Kattis
+|Abreviat.|Instrucción|Descripción|Ejemplo|
+|:---:|:---:|---|---|
+|`fd`|`forward`|Avanza la tortuga el número de pasos indicado|`fd 50`|
+|`bk`|`backward`|Retrocede la tortuga el número de pasos indicado|`bk 20`|
+|`rt`|`right`|Gira a la derecha el número de grados indicado|`rt 90`|
+|`lt`|`left`|Gira a la izquierda el número de grados indicado|`lt 45`|
+|`cs`|`clearscreen`|Limpia todo el lienzo de dibujo y sitúa a la tortuga en el centro|`cs`|
+|`st`|`showturtle`|Muestra la tortuga|`st`|
+|`ht`|`hideturtle`|Oculta la tortuga|`ht`|
+|`pu`|`penup`|Sube el lápiz (para no dibujar mientras se mueve la tortuga)|`pu`|
+|`pd`|`pendown`|Baja el lápiz (para dibujar con el movimiento de la tortuga)|`pd`|
+|`setpos`|-|Coloca la tortuga en las coordenadas indicadas (se toma (0, 0) como el centro de la pantalla)|`setpos[50 10]`|
 
-<img src="/algoritmia/img/kattis.png" width="100" style="float:left;margin-right:10px;"> 
+Podemos escribir más de una instrucción seguida en el recuadro inferior, separadas por espacios, y pulsando *Intro* se ejecutan todas en el orden indicado. Por ejemplo:
 
-**Kattis** es otra web recopilatoria de problemas de programación multilenguaje, algo menos elaborada que *CodeWars* pero que permite generar retos de distintos tipos, subir los nuestros propios e incluso organizar competiciones. 
+```
+fd 40 rt 90 fd 50
+```
 
-También dispone de retos ordenados por nivel de dificultad, y la posibilidad de resolver un mismo reto en distintos lenguajes. [Aquí](https://open.kattis.com/) tenemos la web oficial para registrarnos y usar la plataforma.
+Además, podemos utilizar los cursores de flecha arriba/abajo para movernos por el historial de instrucciones escritas y volverlas a ejecutar si queremos.
 
-## Uso de estos recursos
+> **Ejercicio 1:**
+> 
+> Utiliza las instrucciones anteriores para dibujar estas dos figuras. Puedes guardarte después las instrucciones elegidas en ficheros de texto para tenerlas disponibles.
+>
+> <div align="center">
+>    <img src="/algoritmia/img/logo_03.png" width="80%">
+> </div>
 
-En las diferentes secciones de esta web propondremos ejemplos basados en retos de todas estas webs que hemos comentado. Así que conviene estar registrado en ellas para poderlos intentar y consolidar las cosas que vayamos aprendiendo.
+## 3. Colores y tamaños
+
+Podemos también cambiar colores o grosor del trazo, y rellenar figuras siempre que estén cerradas. Aquí tenemos las instrucciones correspondientes:
+
+|Abreviat.|Instrucción|Descripción|Ejemplo|
+|:---:|:---:|---|---|
+|`setpc`|`setpencolor`|Establece el color del trazo en formato RGB|`setpc [255 0 0]`|
+|`setpw`|`setpenwidth`|Establece el grosor del trazo|`setpw 10`|
+|`fill`|-|Rellena el área cerrada donde se encuentra actualmente la tortuga (debemos colocarla DENTRO de un área cerrada previamente)|`fill`|
+
+> **Ejercicio 2:**
+> 
+> Trata de crear este pentágono con color azul. PISTA: si sumamos todos los ángulos internos de un pentágono, suman 540 grados.
+> 
+> <div align="center">
+>    <img src="/algoritmia/img/logo_04.png" width="30%">
+> </div>
+
+## 4. Repetir instrucciones
+
+Habrás comprobado con algún ejercicio anterior que necesitas repetir varias instrucciones varias veces para conseguir la figura deseada. La pregunta que deberías hacerte es... ¿es necesaria esa repetición? Afortunadamente la respuesta es *no*.
+
+Logo dispone de la instrucción `repeat` que nos va a permitir repetir un conjunto de instrucciones un número determinado de veces. Estas instrucciones a repetir las debemos poner entre corchetes tras la instruccion *repeat* en sí, como en este ejemplo que dibuja un cuadrado de lado 100:
+
+```
+repeat 4 [fd 100 rt 90]
+```
+
+> **Ejercicio 3:**
+> 
+> Utilizando la instrucción *repeat* junto con otras que hemos visto anteriormente, trata de reproducir estas figuras:
+>
+> <div align="center">
+>    <img src="/algoritmia/img/logo_05.png" width="80%">
+> </div>
+
+## 5. Utilizar variables
+
+En Logo podemos emplear variables para guardar datos que queramos utilizar más adelante en el programa, o cuyo valor queramos modificar durante la ejecución. Usamos la instrucción `make` para ello, indicando el nombre de la variable tras las comillas dobles:
+
+```
+make "numero 10
+```
+
+Si queremos utilizar esa variable en nuestro código pondremos el nombre precedido de dos puntos `:`, como en este ejemplo:
+
+```
+fd :numero
+```
+
+También podemos reutilizar la instrucción *make* para modificar el valor previo de una variable:
+
+```
+make "numero :numero + 10
+```
+
+> **Ejercicio 4:**
+> 
+> Utilizando variables y bucles, trata de representar estas figuras:
+> 
+> <div align="center">
+>    <img src="/algoritmia/img/logo_06.png" width="70%">
+> </div>
+>
+> **AYUDA**: para dibujar un círculo, podemos avanzar una pequeña cantidad y girar un pequeño número de grados, y repetir esto un número de veces, como aquí: `repeat 120 [fd 1 rt 3]`. Si aumentamos el paso o reducimos el ángulo obtenemos un círculo más grande, y la operación contraria (reducir el paso o aumentar el ángulo) nos dará un círculo más pequeño. 
+
+## 5. Introducción a las funciones
+
+En el ejercicio anterior habrás comprobado que necesitamos repetir un conjunto de instrucciones varias veces, cambiando el valor de una variable (por ejemplo, el ángulo a girar). También es posible "ahorrarnos" repetir estas estructuras en el código englobando el conjunto de instrucciones en un módulo llamado normalmente *función*. Simplemente le tenemos que dar un nombre a ese grupo de instrucciones y, cada vez que queramos ejecutarlo, invocamos ese nombre en el programa:
+
+```
+TO cuadrado
+   repeat 4 [fd 100 rt 90]
+END
+```
+
+Si queremos dibujar un cuadrado en nuestro programa usando esta función sólo tenemos que hacer lo siguiente:
+
+```
+cuadrado
+```
+
+Además, podemos facilitar a esta función unas variables que utilizar:
+
+```
+TO cuadrado :tamano
+   repeat 4 [fd :tamano rt 90]
+END
+```
+
+Esta función va a dibujar un cuadrado del tamaño que indiquemos cuando invoquemos ese código. Aquí dibujamos cuadrados de distintos tamaños:
+
+```
+cuadrado 50
+cuadrado 100
+cuadrado 150
+```
+
+Obtendremos esta imagen como resultado:
+
+<div align="center">
+    <img src="/algoritmia/img/logo_07.png" width="30%">
+</div>
+
+> **Ejercicio 4:**
+> 
+> Trata de dibujar estas figuras empleando funciones:
+> 
+> <div align="center">
+>    <img src="/algoritmia/img/logo_08.png" width="70%">
+> </div>
