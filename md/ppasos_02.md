@@ -7,7 +7,7 @@ Antes de entrar en materia sobre el desarrollo y prueba de algoritmos, en esta s
 Logo es un lenguaje de programación educativo diseñado en 1967, que se ideó para ayudar a la gente a conocer las bases de la programación a través de instrucciones simples que producen un resultado directo en pantalla. Para ello cuenta con un entorno gráfico donde una tortuga se mueve de acuerdo a las instrucciones que le facilitamos, dibujando figuras con su recorrido.
 
 <div align="center">
-    <img src="/algoritmia/img/logo_01.png" width="30%">
+    <img src="/algoritmia/img/logo_01.png" width="20%">
 </div>
 
 ### 1.1. Software necesario
@@ -30,7 +30,7 @@ En la parte inferior hay un cuadro donde escribiremos las instrucciones para mov
 
 Logo dispone de este conjunto de instrucciones básicas para mover la tortuga:
 
-<table border="1" width="100%">
+<table style="border:1px solid black;border-collapse:collapse;" width="100%">
     <tr>
         <th>Abreviat.</th><th>Instrucción</th><th>Descripción</th><th>Ejemplo</th>
     </tr>
@@ -116,20 +116,36 @@ Además, podemos utilizar los cursores de flecha arriba/abajo para movernos por 
 
 Podemos también cambiar colores o grosor del trazo, y rellenar figuras siempre que estén cerradas. Aquí tenemos las instrucciones correspondientes:
 
-
-
-|Abreviat.|Instrucción|Descripción|Ejemplo|
-|:----:|:----:|---|---|
-|`setpc`|`setpencolor`|Establece el color del trazo en formato RGB|`setpc [255 0 0]`|
-|`setpw`|`setpenwidth`|Establece el grosor del trazo|`setpw 10`|
-|`fill`|-|Rellena el área cerrada donde se encuentra actualmente la tortuga (debemos colocarla DENTRO de un área cerrada previamente)|`fill`|
+<table style="border:1px solid black;border-collapse:collapse;" width="100%">
+    <tr>
+        <th>Abreviat.</th><th>Instrucción</th><th>Descripción</th><th>Ejemplo</th>
+    </tr>
+    <tr>
+        <td align="center"><strong>setpc</strong></td>
+        <td align="center"><strong>setpencolor</strong></td>
+        <td>Establece el color del trazo en formato RGB</td>
+        <td><strong>setpc [255 0 0]</strong></td>
+    </tr>
+    <tr>
+        <td align="center"><strong>setpw</strong></td>
+        <td align="center"><strong>setpenwidth</strong></td>
+        <td>Establece el grosor del trazo</td>
+        <td><strong>setpw 10</strong></td>
+    </tr>
+    <tr>
+        <td align="center"><strong>fill</strong></td>
+        <td align="center"><strong>&nbsp;</strong></td>
+        <td>Rellena el área cerrada donde se encuentra actualmente la tortuga (debemos colocarla DENTRO de un área cerrada previamente)</td>
+        <td><strong>fill</strong></td>
+    </tr>
+</table>
 
 > **Ejercicio 2:**
 > 
 > Trata de crear este pentágono con color azul. PISTA: si sumamos todos los ángulos internos de un pentágono, suman 540 grados.
 > 
 > <div align="center">
->    <img src="/algoritmia/img/logo_04.png" width="30%">
+>    <img src="/algoritmia/img/logo_04.png" width="20%">
 > </div>
 
 ## 4. Repetir instrucciones
@@ -215,7 +231,7 @@ cuadrado 150
 Obtendremos esta imagen como resultado:
 
 <div align="center">
-    <img src="/algoritmia/img/logo_07.png" width="30%">
+    <img src="/algoritmia/img/logo_07.png" width="20%">
 </div>
 
 > **Ejercicio 4:**
@@ -223,5 +239,5 @@ Obtendremos esta imagen como resultado:
 > Trata de dibujar estas figuras empleando funciones:
 > 
 > <div align="center">
->    <img src="/algoritmia/img/logo_08.png" width="70%">
+>    <img src="/algoritmia/img/logo_08.png" width="60%">
 > </div>
