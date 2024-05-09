@@ -30,7 +30,7 @@ En la parte inferior hay un cuadro donde escribiremos las instrucciones para mov
 
 Logo dispone de este conjunto de instrucciones básicas para mover la tortuga:
 
-<table style="border:1px solid black;border-collapse:collapse;" width="100%">
+<table width="100%">
     <tr>
         <th>Abreviat.</th><th>Instrucción</th><th>Descripción</th><th>Ejemplo</th>
     </tr>
@@ -104,6 +104,8 @@ fd 40 rt 90 fd 50
 
 Además, podemos utilizar los cursores de flecha arriba/abajo para movernos por el historial de instrucciones escritas y volverlas a ejecutar si queremos.
 
+<div class="ejercicio">
+
 > **Ejercicio 1:**
 > 
 > Utiliza las instrucciones anteriores para dibujar estas dos figuras. Puedes guardarte después las instrucciones elegidas en ficheros de texto para tenerlas disponibles.
@@ -112,11 +114,13 @@ Además, podemos utilizar los cursores de flecha arriba/abajo para movernos por 
 >    <img src="/algoritmia/img/logo_03.png" width="80%">
 > </div>
 
+</div>
+
 ## 3. Colores y tamaños
 
 Podemos también cambiar colores o grosor del trazo, y rellenar figuras siempre que estén cerradas. Aquí tenemos las instrucciones correspondientes:
 
-<table style="border:1px solid black;border-collapse:collapse;" width="100%">
+<table width="100%">
     <tr>
         <th>Abreviat.</th><th>Instrucción</th><th>Descripción</th><th>Ejemplo</th>
     </tr>
