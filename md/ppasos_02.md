@@ -30,8 +30,14 @@ En la parte inferior hay un cuadro donde escribiremos las instrucciones para mov
 
 Logo dispone de este conjunto de instrucciones básicas para mover la tortuga:
 
+<!--
+<table border="1">
+    <tr>
+        <th>Abreviat.</th><th>Instrucción</th><th>Descripción</th>
+    </tr>
+-->
 |Abreviat.|Instrucción|Descripción|Ejemplo|
-|:---:|:---:|---|---|
+|:----:|:----:|---|---|
 |`fd`|`forward`|Avanza la tortuga el número de pasos indicado|`fd 50`|
 |`bk`|`backward`|Retrocede la tortuga el número de pasos indicado|`bk 20`|
 |`rt`|`right`|Gira a la derecha el número de grados indicado|`rt 90`|
@@ -63,8 +69,10 @@ Además, podemos utilizar los cursores de flecha arriba/abajo para movernos por 
 
 Podemos también cambiar colores o grosor del trazo, y rellenar figuras siempre que estén cerradas. Aquí tenemos las instrucciones correspondientes:
 
+
+
 |Abreviat.|Instrucción|Descripción|Ejemplo|
-|:---:|:---:|---|---|
+|:----:|:----:|---|---|
 |`setpc`|`setpencolor`|Establece el color del trazo en formato RGB|`setpc [255 0 0]`|
 |`setpw`|`setpenwidth`|Establece el grosor del trazo|`setpw 10`|
 |`fill`|-|Rellena el área cerrada donde se encuentra actualmente la tortuga (debemos colocarla DENTRO de un área cerrada previamente)|`fill`|
