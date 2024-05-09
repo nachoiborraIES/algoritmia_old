@@ -134,7 +134,7 @@ h2, h3
     background-color: #456f9c;
 }
 
-table, td
+table, td, th
 {
     border: 1px solid black;
     border-collapse: collapse;
@@ -144,5 +144,6 @@ table, td
 {
     background-color: #e5e5e5;
     margin: 20px 0;
-    padding: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
 }
