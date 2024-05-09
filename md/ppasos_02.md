@@ -30,24 +30,71 @@ En la parte inferior hay un cuadro donde escribiremos las instrucciones para mov
 
 Logo dispone de este conjunto de instrucciones básicas para mover la tortuga:
 
-<!--
-<table border="1">
+<table border="1" width="100%">
     <tr>
-        <th>Abreviat.</th><th>Instrucción</th><th>Descripción</th>
+        <th>Abreviat.</th><th>Instrucción</th><th>Descripción</th><th>Ejemplo</th>
     </tr>
--->
-|Abreviat.|Instrucción|Descripción|Ejemplo|
-|:----:|:----:|---|---|
-|`fd`|`forward`|Avanza la tortuga el número de pasos indicado|`fd 50`|
-|`bk`|`backward`|Retrocede la tortuga el número de pasos indicado|`bk 20`|
-|`rt`|`right`|Gira a la derecha el número de grados indicado|`rt 90`|
-|`lt`|`left`|Gira a la izquierda el número de grados indicado|`lt 45`|
-|`cs`|`clearscreen`|Limpia todo el lienzo de dibujo y sitúa a la tortuga en el centro|`cs`|
-|`st`|`showturtle`|Muestra la tortuga|`st`|
-|`ht`|`hideturtle`|Oculta la tortuga|`ht`|
-|`pu`|`penup`|Sube el lápiz (para no dibujar mientras se mueve la tortuga)|`pu`|
-|`pd`|`pendown`|Baja el lápiz (para dibujar con el movimiento de la tortuga)|`pd`|
-|`setpos`|-|Coloca la tortuga en las coordenadas indicadas (se toma (0, 0) como el centro de la pantalla)|`setpos[50 10]`|
+    <tr>
+        <td align="center"><strong>fd</strong></td>
+        <td align="center"><strong>forward</strong></td>
+        <td>Avanza la tortuga el número de pasos indicado</td>
+        <td><strong>fd 50</strong></td>
+    </tr>
+    <tr>
+        <td align="center"><strong>bk</strong></td>
+        <td align="center"><strong>backward</strong></td>
+        <td>Retrocede la tortuga el número de pasos indicado</td>
+        <td><strong>bk 20</strong></td>
+    </tr>
+    <tr>
+        <td align="center"><strong>rt</strong></td>
+        <td align="center"><strong>right</strong></td>
+        <td>Gira a la derecha el número de grados indicado</td>
+        <td><strong>rt 90</strong></td>
+    </tr>
+    <tr>
+        <td align="center"><strong>lt</strong></td>
+        <td align="center"><strong>left</strong></td>
+        <td>Gira a la izquierda el número de grados indicado</td>
+        <td><strong>lt 45</strong></td>
+    </tr>
+    <tr>
+        <td align="center"><strong>cs</strong></td>
+        <td align="center"><strong>clearscreen</strong></td>
+        <td>Borra el lienzo de dibujo y resitúa a la tortuga en el centro</td>
+        <td><strong>cs</strong></td>
+    </tr>
+    <tr>
+        <td align="center"><strong>st</strong></td>
+        <td align="center"><strong>showturtle</strong></td>
+        <td>Muestra la tortuga</td>
+        <td><strong>st</strong></td>
+    </tr>
+    <tr>
+        <td align="center"><strong>ht</strong></td>
+        <td align="center"><strong>hideturtle</strong></td>
+        <td>Oculta la tortuga</td>
+        <td><strong>ht</strong></td>
+    </tr>
+    <tr>
+        <td align="center"><strong>pu</strong></td>
+        <td align="center"><strong>penup</strong></td>
+        <td>Sube el lápiz (para no dibujar mientras se mueve la tortuga)</td>
+        <td><strong>pu</strong></td>
+    </tr>
+    <tr>
+        <td align="center"><strong>pd</strong></td>
+        <td align="center"><strong>pendown</strong></td>
+        <td>Baja el lápiz (para dibujar mientras se mueve la tortuga)</td>
+        <td><strong>pd</strong></td>
+    </tr>
+    <tr>
+        <td align="center"><strong>setpos</strong></td>
+        <td align="center"><strong>&nbsp;</strong></td>
+        <td>Coloca a la tortuga en las coordenadas que indiquemos (basándonos en el centro del lienzo)</td>
+        <td><strong>setpos [50 10]</strong></td>
+    </tr>
+</table>
 
 Podemos escribir más de una instrucción seguida en el recuadro inferior, separadas por espacios, y pulsando *Intro* se ejecutan todas en el orden indicado. Por ejemplo:
 
