@@ -24,5 +24,6 @@ function cargar(div, id_doc)
       var html = converter.makeHtml(data);
       // Insertar el HTML resultante en el div
       $('#' + div).html(html);
+      hljs.highlightAll();
     });
 }
