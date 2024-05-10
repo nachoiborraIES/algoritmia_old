@@ -192,7 +192,7 @@ make "numero :numero + 10
     <div align="center">
         <img src="/algoritmia/img/logo_06.png" width="70%">
     </div>
-    <p><strong>AYUDA:</strong> para dibujar un círculo, podemos avanzar una pequeña cantidad y girar un pequeño número de grados, y repetir esto un número de veces, como aquí: `repeat 120 [fd 1 rt 3]`. Si aumentamos el paso o reducimos el ángulo obtenemos un círculo más grande, y la operación contraria (reducir el paso o aumentar el ángulo) nos dará un círculo más pequeño.</p>
+    <p><strong>AYUDA:</strong> para dibujar un círculo, podemos avanzar una pequeña cantidad y girar un pequeño número de grados, y repetir esto un número de veces, como aquí: <code>repeat 120 [fd 1 rt 3]</code>. Si aumentamos el paso o reducimos el ángulo obtenemos un círculo más grande, y la operación contraria (reducir el paso o aumentar el ángulo) nos dará un círculo más pequeño.</p>
 </div>
 
 ## 6. Introducción a las funciones
