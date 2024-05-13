@@ -27,3 +27,12 @@ function cargar(div, id_doc)
       hljs.highlightAll();
     });
 }
+
+const urlParams = new URLSearchParams(window.location.search);
+const secc = urlParams.get('seccion');
+const idDoc = urlParams.get('idDoc');
+if(secc && idDoc)
+{
+    mostrar(secc);
+    cargar('cont_' + secc, secc + "_" + idDoc);
+}
