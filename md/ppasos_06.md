@@ -67,7 +67,7 @@ Después debemos configurar la variable *PATH* del sistema para que incluya la s
 En el caso de **Windows** podría quedar algo así:
 
 <div align="center">
-    <img src="https://nachoiborraies.github.io/entornos/img/ED_b1_tema01-02-variables_entorno_2.png" width="80%">
+    <img src="https://nachoiborraies.github.io/entornos/img/ED_b1_tema01-02-variables_entorno_2.png" width="60%">
 </div>
 
 En el caso de **Linux** escribiremos estos comandos desde un terminal:
@@ -87,7 +87,7 @@ source ~/.bash_profile
 También puede ser necesario configurar una nueva variable de entorno llamada *JAVA_HOME* que indique en qué carpeta hemos descomprimido o instalado JDK. Aquí lo vemos para el caso de **Windows**:
 
 <div align="center">
-    <img src="https://nachoiborraies.github.io/entornos/img/ED_b1_tema01-04-java_home.png" width="80%">
+    <img src="https://nachoiborraies.github.io/entornos/img/ED_b1_tema01-04-java_home.png" width="60%">
 </div>
 
 Aquí tenemos los comandos correspondientes para **Linux**:

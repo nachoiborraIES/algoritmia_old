@@ -63,13 +63,13 @@ En cualquiera de estas opciones podemos editar nuestro código en una ventana de
 Si queremos compilar y ejecutar programas en C++ de forma local, también tenemos varias alternativas. En Windows debemos descargar e instalar algún compilador para C++, como por ejemplo <a href="https://sourceforge.net/projects/mingw/" target="_blank">MinGW</a>. En el asistente debemos marcar para instalar el paquete *base* y el compilador *gcc-g++*. Podemos instalarlo todo en una carpeta sencilla, como por ejemplo *C:\MinGW*.
 
 <div align="center">
-    <img src="https://nachoiborraies.github.io/entornos/img/ED_b1_tema01-01-mingw.png" width="80%">
+    <img src="https://nachoiborraies.github.io/entornos/img/ED_b1_tema01-01-mingw.png" width="60%">
 </div>
 
 Después debemos editar las variables de entorno del sistema y añadir la subcarpeta *bin* de la instalación, para que Windows reconozca al compilador:
 
 <div align="center">
-    <img src="https://nachoiborraies.github.io/entornos/img/ED_b1_tema01-01-mingw_2.png" width="80%">
+    <img src="https://nachoiborraies.github.io/entornos/img/ED_b1_tema01-01-mingw_2.png" width="60%">
 </div>
 
 En Linux el compilador *gcc* o *g++* viene instalado por defecto, y en el caso de Mac se instala también por defecto instalando la herramienta XCode.

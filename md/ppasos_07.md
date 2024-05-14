@@ -47,7 +47,7 @@ En cualquiera de estas opciones podemos editar nuestro código en una ventana de
 Si queremos ejecutar programas en Python de forma local, debemos instalar Python en nuestro sistema. Lo podemos descargar de su <a href="https://www.python.org/downloads/" target="_blank">web oficial</a>. En el caso de Windows convendrá añadir a la variable PATH la carpeta de instalación. Esto puede hacerse marcando la casilla adecuada durante el proceso de instalación:
 
 <div align="center">
-    <img src="https://nachoiborraies.github.io/entornos/img/ED_b1_tema01-05-python.png" width="80%">
+    <img src="https://nachoiborraies.github.io/entornos/img/ED_b1_tema01-05-python.png" width="60%">
 </div>
 
 En el caso de **Linux** podemos comprobar si ya lo tenemos instalado en nuestra distribución:
