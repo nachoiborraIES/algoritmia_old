@@ -128,11 +128,7 @@ El dato `name=None` es el dato que le proporcionamos al programa. Lo igualamos a
 
 <div class="ejercicio">
     <p><strong>Ejercicio 3:</strong></p>
-    <p>Trata de resolver este mismo reto en Java y comprueba que la plataforma lo acepta. Deberás tener en cuenta dos cosas:</p>
-    <ul>
-        <li>En el caso de Java no debemos igualar el parámetro *name* a nada. Simplemente ver si es *Zach* o es otra cosa.</li>
-        <li>En Java, para ver si un texto es "Zach", por ejemplo, no podemos usar el operador `==`. Los textos en Java se comparan con la instrucción `equals`. Por ejemplo, `name.equals("Zach")`.
-    </ul>
+    <p>Trata de resolver este mismo reto en C# y comprueba que la plataforma lo acepta. En el caso de C# no debemos igualar el parámetro <code>name</code> a nada. Simplemente ver si es "Zach" o es otra cosa.</p>
 </div>
 
 ## 4. Más retos para practicar
