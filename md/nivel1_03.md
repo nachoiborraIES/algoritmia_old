@@ -1,0 +1,141 @@
+# Algoritmos básicos con condiciones simples
+
+En este documento vamos a practicar el uso de condiciones simples en diferentes tipos de problemas a resolver. Entendemos por *condición simple* a condiciones que sean fácilmente programables, como por ejemplo comprobar si una variable (o unas pocas) valen exactamente un valor, o son mayores o menores que un valor determinado.
+
+## 1. El día de Navidad
+
+El día de Navidad es una fecha señalada y fácil de recordar: el 25 de diciembre. Si lo expresamos de forma numérica, el día es el 25 y el mes es el 12. Sabiendo esto, vamos a echar un vistazo a <a href="https://aceptaelreto.com/problem/statement.php?id=362" target="_blank">este reto</a> de *Acepta el Reto*.
+
+El reto en sí consiste en que:
+
+* Primero nos van a indicar cuántas fechas nos van a proporcionar (un número N por concretar)
+* Después leeremos cada una de esas N fechas (primero el día y luego el mes) y diremos *SI* si corresponde al día de Navidad (25 del 12) o *NO* en caso contrario.
+
+Vamos a plantear el reto en Java: utilizaremos el método `nextInt` de la variable `Scanner` para leer primero el número de fechas, y luego el día y mes de cada fecha (usamos un bucle `for` para leer tantas fechas como nos diga el número que hemos leído al principio). Cuando leamos cada día y mes, comprobamos con un `if` si es el día de Navidad o no.
+
+```java
+import java.util.Scanner;
+
+public class Reto362
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        int numFechas, dia, mes;
+
+        // Leemos el número de fechas que nos van a pasar
+        numFechas = sc.nextInt();
+
+        // Repetimos el bucle para leer ese número de fechas
+        for(int i = 1; i <= numFechas; i++)
+        {
+            // Leemos día y mes por separado
+            dia = sc.nextInt();
+            mes = sc.nextInt();
+
+            // Comprobamos si es el día de Navidad
+            if(dia == 25 && mes == 12)
+            {
+                System.out.println("SI");
+            }
+            else
+            {
+                System.out.println("NO");
+            }
+        }
+    }
+}
+```
+
+Si pruebas a enviar el código de este ejemplo, verás que lo da como aceptado.
+
+<div class="ejercicio">
+    <p><strong>Ejercicio 1:</strong></p>
+    <p>Trata de resolver este mismo reto en C++ y comprueba que la plataforma lo acepta.</p>
+</div>
+
+## 2. Ecos impares
+
+Vamos ahora a <a href="https://open.kattis.com/problems/oddecho" target="_blank">este reto</a> de Kattis. En él nos van a dar primero un número, indicando cuántas palabras vamos a tener que leer. Después leeremos cada una de esas palabras (una por línea) y tenemos que sacar por pantalla sólo las que nos den en posiciones impares. Por ejemplo, si nos dicen que vamos a leer 5 palabras con esta entrada:
+
+```
+5
+una
+dos
+tres
+cuatro
+cinco
+```
+
+Nuestra salida por pantalla debe mostrar sólo las que hemos leído en posiciones impares, es decir:
+
+```
+una
+tres
+cinco
+```
+
+Leeremos primero el número de palabras *n* y construiremos un bucle `for` que lea esas palabras. Dentro del bucle mostraremos únicamente las palabras que tengan el contador del bucle impar. Para ver si un número es impar, tenemos que comprobar que NO sea divisible por 2.
+
+El código puede quedar más o menos así en C#:
+
+```cs
+using System;
+
+class Ejemplo
+{
+    static void Main()
+    {
+        int numPalabras;
+        string palabra;
+
+        // Leemos el número de palabras
+        numPalabras = Convert.ToInt32(Console.ReadLine());
+
+        // Recorremos las palabras y mostramos las impares
+        for(int i = 1; i <= numPalabras; i++)
+        {
+            palabra = Console.ReadLine();
+            if(i % 2 != 0)
+            {
+                Console.WriteLine(palabra);
+            }
+        }
+    }
+}
+```
+
+<div class="ejercicio">
+    <p><strong>Ejercicio 2:</strong></p>
+    <p>Trata de resolver este mismo reto en Python y comprueba que la plataforma lo acepta.</p>
+</div>
+
+## 3. Contando sables láser
+
+Echemos un vistazo a <a href="https://www.codewars.com/kata/51f9d93b4095e0a7200001b8" target="_blank">este reto</a> de CodeWars. En él se nos pide que indiquemos cuántos sables láser tiene el usuario almacenado en la variable `name`, sabiendo que si se llama *Zach* tiene 18 sables, y el resto tienen 0.
+
+Podríamos resolverlo en Python de este modo:
+
+```py
+def how_many_light_sabers_do_you_own(name=None):
+    result = 0
+    if name == "Zach":
+        result = 18
+    return result
+```
+
+El dato `name=None` es el dato que le proporcionamos al programa. Lo igualamos a *None* ("nada" en Python), porque el ejercicio dice que es posible que no proporcionemos ningún nombre y, en ese caso, también nos tiene que decir que hay 0 sables láser.
+
+<div class="ejercicio">
+    <p><strong>Ejercicio 3:</strong></p>
+    <p>Trata de resolver este mismo reto en Java y comprueba que la plataforma lo acepta. Deberás tener en cuenta dos cosas:</p>
+    <ul>
+        <li>En el caso de Java no debemos igualar el parámetro *name* a nada. Simplemente ver si es *Zach* o es otra cosa.</li>
+        <li>En Java, para ver si un texto es "Zach", por ejemplo, no podemos usar el operador `==`. Los textos en Java se comparan con la instrucción `equals`. Por ejemplo, `name.equals("Zach")`.
+    </ul>
+</div>
+
+## 4. Más retos para practicar
+
+Agrupamos en este apartado otros retos de características similares para practicar.
+

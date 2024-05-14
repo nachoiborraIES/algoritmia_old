@@ -141,5 +141,5 @@ A medida que vayamos superando retos aumentará nuestra puntuación y nivel, que
 
 <div class="ejercicio">
     <p><strong>Ejercicio 3:</strong></p>
-    <p>Trata de resolver este mismo reto en Python y prueba tu programa en la plataforma. Deberás averiguar cómo se definen funciones en Python, y crear una llamada *greet* que devuelva el texto indicado con una instrucción *return*.</p>
+    <p>Trata de resolver este mismo reto en Python y prueba tu programa en la plataforma. Deberás averiguar cómo se definen funciones en Python, y crear una llamada <code>greet</code> que devuelva el texto indicado con una instrucción <code>return</code>.</p>
 </div>
