@@ -2,9 +2,9 @@
 
 Cuando aprendemos a programar en cualquier lenguaje de programación, el primer código que se suele aprender es uno que muestre un mensaje corto por pantalla, que típicamente suele ser *Hola mundo* (*Hello world* en inglés).
 
-Así que, para empezar nuestra andadura en la resolución de problemas algorítmicos, vamos a ver cómo resolver un reto llamado *Hola mundo*, que tenemos disponible en <a href="https://aceptaelreto.com/problem/statement.php?id=116" target="_blank">este enlace de la plataforma Acepta el Reto</a>.
-
 ## 1. Descripción del reto a resolver en Acepta el Reto
+
+Así que, para empezar nuestra andadura en la resolución de problemas algorítmicos, vamos a ver cómo resolver un reto llamado *Hola mundo*, que tenemos disponible en <a href="https://aceptaelreto.com/problem/statement.php?id=116" target="_blank">este enlace de la plataforma Acepta el Reto</a>.
 
 Lee con detenimiento el enunciado del reto. A modo de resumen, lo que nos pide es que hagamos un programa en el que leeremos un número entero entre 0 y 5, y deberemos mostrar el mensaje *Hola mundo.* por pantalla tantas veces como el número que hemos leído. Por ejemplo, si leemos por pantalla el número 4, la salida de nuestro programa deberá ser esta:
 
