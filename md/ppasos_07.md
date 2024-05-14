@@ -6,7 +6,7 @@ En este documento vamos a dar un vistazo rápido a los elementos principales par
 
 Para verlo todo de un vistazo usaremos el mismo ejemplo que hemos visto en documentos anteriores: en este programa le pedimos al usuario que indique el número de perros y gatos que hay en una protectora, y mostramos por pantalla el porcentaje de perros y de gatos que hay.
 
-```cs
+```py
 print("Indica el número de perros:")
 perros = int(input())
 print("Indica el número de gatos:")

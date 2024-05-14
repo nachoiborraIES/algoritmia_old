@@ -6,7 +6,7 @@ En este documento veremos rápidamente las nociones elementales para empezar a h
 
 Para verlo rápidamente de un vistazo, plantearemos el mismo ejemplo que en otros documentos: le pedimos al usuario que indique el número de perros y gatos que hay en una protectora, y mostramos por pantalla el porcentaje de perros y de gatos que hay.
 
-```cs
+```cpp
 #include <iostream>
 
 using namespace std;
