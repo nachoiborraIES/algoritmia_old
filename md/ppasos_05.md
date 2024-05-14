@@ -53,10 +53,10 @@ Podemos utilizar un compilador online si queremos hacer pruebas rápidas y senci
 
 <ul>
     <li><a href="https://www.programiz.com/cpp-programming/online-compiler" target="_blank">Editor online de <em>Programiz</em> para C++</a></li>
-    <li><a href="https://www.onlinegdb.com/online_c++_compiler" target="_blank">Editor online de <em>OnlineGDB</em> para C++</a></li>
+    <li><a href="https://www.tutorialspoint.com/compile_cpp_online.php" target="_blank">Editor online de <em>TutorialsPoint</em> para C++</a></li>
 </ul>
 
-En cualquiera de estas opciones podemos editar nuestro código en una ventana de edición y luego ejecutarlo en un terminal adjunto (a la derecha o en la parte inferior), con el que podemos interactuar e introducir datos por teclado.
+En cualquiera de estas opciones podemos editar nuestro código en una ventana de edición y luego ejecutarlo en un terminal adjunto a la derecha, con el que podemos interactuar e introducir datos por teclado.
 
 ### 2.2. Compilación y ejecución local
 
@@ -76,9 +76,8 @@ En Linux el compilador *gcc* o *g++* viene instalado por defecto, y en el caso d
 
 Como editor simple para hacer nuestros programas podemos usar **Geany**, que se puede descargar desde su <a href="https://www.geany.org/" target="_blank">web oficial</a>. Una vez lo tengamos instalado debemos seguir estos pasos:
 
-1. Crear un archivo nuevo y guardarlo como un programa C++. Por ejemplo, podemos copiar el código del ejemplo anterior y guardarlo como *Ejemplo.cpp*.
-2. Al guardar el fichero como *.cpp*, Geany ya lo identificará como fichero de código C++, y activará automáticamente el compilador por defecto.
-4. Para compilar nuestros programas podemos ir al menú *Construir > Build* (no elegir la opción *Compilar*) y una vez compilado ejecutamos con *Construir > Ejecutar*. También podemos usar los botones correspondientes de la barra de herramientas superior.
+1. Crear un archivo nuevo y guardarlo como un programa C++. Por ejemplo, podemos copiar el código del ejemplo anterior y guardarlo como *Ejemplo.cpp*. Al guardar el fichero como *.cpp*, Geany ya lo identificará como fichero de código C++, y activará automáticamente el compilador por defecto.
+2. Para compilar nuestros programas podemos ir al menú *Construir > Build* (no elegir la opción *Compilar*) y una vez compilado ejecutamos con *Construir > Ejecutar*. También podemos usar los botones correspondientes de la barra de herramientas superior.
 
 <div class="ejercicio">
     <p><strong>Ejercicio 1:</strong></p>
