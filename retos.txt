@@ -1,0 +1,129 @@
+LISTADO DE RETOS POR CATEGORIA O NIVEL
+--------------------------------------
+
+(+) - Retos resueltos en la web
+(*) - Retos planteados en la web
+( ) - Retos posibles, pero no planteados
+
+01.01. Introducción
+-------------------
+
+(+) Acepta el Reto: 116 - Hola mundo
+(+) Kattis: Hello world (https://open.kattis.com/problems/hello)
+(+) Codewars: Function 1 - hello world (https://www.codewars.com/kata/523b4ff7adca849afe000035)
+
+01.02. Condiciones simples
+--------------------------
+
+(+) Acepta el Reto: 362 - El día de Navidad (https://aceptaelreto.com/problem/statement.php?id=362)
+(+) Kattis: Odd echo (https://open.kattis.com/problems/oddecho)
+(+) Codewars: How many lightsabers do you own? (https://www.codewars.com/kata/51f9d93b4095e0a7200001b8)
+
+( ) Acepta el Reto: 369 - Contando en la arena (https://aceptaelreto.com/problem/statement.php?id=369)
+( ) Acepta el Reto: 621 - La otra página (https://aceptaelreto.com/problem/statement.php?id=621)
+( ) Kattis: Stuck in a time loop (https://open.kattis.com/problems/timeloop)
+( ) Kattis: Take two stones (https://open.kattis.com/problems/twostones)
+( ) Kattis: Echo echo echo (https://open.kattis.com/problems/echoechoecho)
+( ) Kattis: IsItHalloween.com (https://open.kattis.com/problems/isithalloween)
+( ) Kattis: Solving for carrots (https://open.kattis.com/problems/carrots)
+( ) Codewars: Multiples of 3 or 5 (https://www.codewars.com/kata/514b92a657cdc65150000006)
+( ) Codewars: If you can't sleep, just count sheep!! (https://www.codewars.com/kata/5b077ebdaf15be5c7f000077)
+
+
+01.03. Operaciones matemáticas simples
+--------------------------------------
+
+( ) Acepta el Reto: 413 - Claras y oscuras (https://aceptaelreto.com/problem/statement.php?id=413)
+( ) Acepta el Reto: 474 - Tu amigable vecino (https://aceptaelreto.com/problem/statement.php?id=474)
+( ) Acepta el Reto: 403 - En campos de fútbol (https://aceptaelreto.com/problem/statement.php?id=403)
+( ) Kattis: FYI (https://open.kattis.com/problems/fyi)
+( ) Kattis: Arrangement (https://open.kattis.com/problems/upprodun)
+( ) Kattis: Building pyramids (https://open.kattis.com/problems/pyramids)
+( ) Codewars: Previous multiple of three (https://www.codewars.com/kata/61123a6f2446320021db987d)
+( ) Codewars: Twice as old (https://www.codewars.com/kata/5b853229cfde412a470000d0)
+( ) Codewars: Leap years (https://www.codewars.com/kata/526c7363236867513f0005ca)
+( ) Codewars: Growth of a population (https://www.codewars.com/kata/563b662a59afc2b5120000c6)
+( ) Kattis: The bus card (https://open.kattis.com/problems/busskortet)
+
+01.04. Combinando estructuras
+-----------------------------
+
+( ) Acepta el Reto: 150 - ¡A dibujar hexágonos! (https://aceptaelreto.com/problem/statement.php?id=150)
+( ) Acepta el Reto: 622 - La media prometida (https://aceptaelreto.com/problem/statement.php?id=622)
+
+01.05. Trabajando con tipos de datos
+------------------------------------
+
+( ) Kattis: Metronome (https://open.kattis.com/problems/metronome)
+( ) Kattis: Betting (https://open.kattis.com/problems/betting)
+( ) Acepta el Reto: 350 - El triángulo de mayor área (https://aceptaelreto.com/problem/statement.php?id=350)
+( ) Acepta el Reto: 239 - Pi.Pi.Pi.Pi.Pi.Piiii (https://aceptaelreto.com/problem/statement.php?id=239)
+( ) Acepta el Reto: 576 - Leyendo el diccionario (https://aceptaelreto.com/problem/statement.php?id=576)
+( ) Acepta el Reto: 236 - Los orígenes del ajedrez (https://aceptaelreto.com/problem/statement.php?id=236)
+
+Específicos de textos:
+
+( ) Acepta el Reto: 427 - Yo soy tu... (https://aceptaelreto.com/problem/statement.php?id=427)
+( ) Acepta el Reto: 344 - Conectando cables (https://aceptaelreto.com/problem/statement.php?id=344)
+( ) Kattis: Finding an A (https://open.kattis.com/problems/findingana)
+( ) Kattis: Greetings (https://open.kattis.com/problems/greetings2)
+( ) Kattis: Seven Wonders (https://open.kattis.com/problems/sevenwonders)
+( ) Kattis: Eye of Sauron (https://open.kattis.com/problems/eyeofsauron)
+( ) Kattis: Hissing microphone (https://open.kattis.com/problems/hissingmicrophone)
+( ) Kattis: Alphabet spam (https://open.kattis.com/problems/alphabetspam)
+
+02.01. Operaciones con arrays
+-----------------------------
+
+( ) Acepta el Reto: 105 - Ventas (https://aceptaelreto.com/problem/statement.php?id=105)
+( ) Acepta el Reto: 485 - Senda pirenaica (https://aceptaelreto.com/problem/statement.php?id=485)
+( ) Acepta el Reto: 160 - Matrices triangulares (https://aceptaelreto.com/problem/statement.php?id=160)
+( ) Kattis: Cold-puter science (https://open.kattis.com/problems/cold)
+( ) Kattis: Missing numbers (https://open.kattis.com/problems/missingnumbers)
+( ) Kattis: Plants vs Bad Guys (https://open.kattis.com/problems/pvbg)
+( ) Codewars: Highest rank number in array (https://www.codewars.com/kata/5420fc9bb5b2c7fd57000004)
+( ) Codewars: Numbers with this digit inside (https://www.codewars.com/kata/57ad85bb7cb1f3ae7c000039)
+
+02.02. Mejorando la eficiencia
+------------------------------
+
+( ) Acepta el Reto: 168 - La pieza perdida (https://aceptaelreto.com/problem/statement.php?id=168)
+( ) Acepta el Reto: 208 - Tirando bolos (https://aceptaelreto.com/problem/statement.php?id=208)
+( ) Acepta el Reto: 114 - Último dígito del factorial (https://aceptaelreto.com/problem/statement.php?id=114)
+
+02.03. Operaciones avanzadas con textos
+---------------------------------------
+
+( ) Acepta el Reto: 623 - El Joker de la primitiva (https://aceptaelreto.com/problem/statement.php?id=623)
+( ) Acepta el Reto: 154 - ¿Cuál es la siguiente matrícula? (https://aceptaelreto.com/problem/statement.php?id=154)
+( ) Acepta el Reto: 178 - Quinto milenio (https://aceptaelreto.com/problem/statement.php?id=178)
+( ) Kattis: Poker hand (https://open.kattis.com/problems/pokerhand)
+( ) Kattis: Speed limit (https://open.kattis.com/problems/speedlimit)
+( ) Kattis: Simon says (https://open.kattis.com/problems/simonsays)
+( ) Kattis: Code to save lives (https://open.kattis.com/problems/codetosavelives)
+( ) Kattis: Honour Thy (Apaxian) Parent (https://open.kattis.com/problems/apaxianparent)
+
+02.04. Algoritmos voraces
+-------------------------
+
+
+
+03.01. Problemas recursivos simples
+-----------------------------------
+
+
+
+03.02. Problemas con objetos complejos
+--------------------------------------
+
+( ) Acepta el Reto: 268 - Desarrollos en las bicicletas (https://aceptaelreto.com/problem/statement.php?id=268)
+
+03.03. Problemas de búsqueda de soluciones
+------------------------------------------
+
+
+
+03.04. Problemas de eficiencia en búsqueda de soluciones
+--------------------------------------------------------
+
+
