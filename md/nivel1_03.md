@@ -135,3 +135,35 @@ El dato `name=None` es el dato que le proporcionamos al programa. Lo igualamos a
 
 Agrupamos en este apartado otros retos de características similares para practicar.
 
+### 4.1. Contando en la arena
+
+En <a href="https://aceptaelreto.com/problem/statement.php?id=369" target="_blank">este reto</a> de *Acepta el Reto* se plantea el siguiente problema: cómo contar usando sólo el número uno. Como entrada nos irán dando números positivos, y para cada uno tendremos que indicar a qué equivale en unos. Por ejemplo, si leemos el número 4 equivaldría a *1111* (cuatro unos). El problema terminará cuando leamos un cero.
+
+<div class="ejercicio">
+    <p><strong>Ejercicio 4:</strong></p>
+    <p>Trata de resolver este reto en C++ y comprueba el resultado en la plataforma.</p>
+</div>
+
+### 4.2. Tomar dos piedras
+
+En <a href="https://open.kattis.com/problems/twostones" target="_blank">este reto</a> de *Kattis* se nos plantea un juego con piedras: hay N piedras en el suelo formando una fila o secuencia, numeradas de la piedra 1 a la N. Alice y Bob juegan por turnos, y deben tomar dos piedras consecutivas, hasta que ya no queden dos piedras consecutivas que tomar. Si el número de piedras que queda al final es impar, gana Alice, y si es par, gana Bob. Empieza jugando Alice siempre.
+
+Como entrada nos dirán el número de piedras que hay, y debemos indicar, suponiendo que ambos jugadores juegan de forma inteligente, quién va a ganar. Veamos algunos ejemplos:
+
+* Hay 1 piedra. Como no se pueden tomar dos consecutivas y queda un número impar de piedras, gana Alice
+* Hay 2 piedras. Alice toma las dos piedras y deja 0 piedras restantes (número par), por lo que gana Bob.
+* Hay 5 piedras. Si Alice toma cualquier secuencia de 2 piedras consecutivas, Bob elegirá otra secuencia de 2 que también quedará disponible, y finalmente quedará una piedra suelta. Gana Alice.
+
+<div class="ejercicio">
+    <p><strong>Ejercicio 5:</strong></p>
+    <p>Trata de resolver este reto en Python y comprueba el resultado en la plataforma.</p>
+</div>
+
+### 4.3. Si no puedes dormir, cuenta ovejas
+
+En <a href="https://www.codewars.com/kata/5b077ebdaf15be5c7f000077" target="_blank">este reto</a> de *CodeWars* nos proponen contar ovejas para dormir. Dado el valor de una variable `n`, debemos construir un texto con todo el conteo de ovejas, en el formato que se indica en el ejercicio. Por ejemplo, si n = 3 el texto a mostrar (o devolver con *return*) debe ser *1 sheep...2 sheep...3 sheep...*.
+
+<div class="ejercicio">
+    <p><strong>Ejercicio 6:</strong></p>
+    <p>Trata de resolver este reto en C# y comprueba el resultado en la plataforma.</p>
+</div>

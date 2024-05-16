@@ -19,16 +19,15 @@ LISTADO DE RETOS POR CATEGORIA O NIVEL
 (+) Kattis: Odd echo (https://open.kattis.com/problems/oddecho)
 (+) Codewars: How many lightsabers do you own? (https://www.codewars.com/kata/51f9d93b4095e0a7200001b8)
 
-( ) Acepta el Reto: 369 - Contando en la arena (https://aceptaelreto.com/problem/statement.php?id=369)
+(*) Acepta el Reto: 369 - Contando en la arena (https://aceptaelreto.com/problem/statement.php?id=369)
 ( ) Acepta el Reto: 621 - La otra página (https://aceptaelreto.com/problem/statement.php?id=621)
 ( ) Kattis: Stuck in a time loop (https://open.kattis.com/problems/timeloop)
-( ) Kattis: Take two stones (https://open.kattis.com/problems/twostones)
+(*) Kattis: Take two stones (https://open.kattis.com/problems/twostones)
 ( ) Kattis: Echo echo echo (https://open.kattis.com/problems/echoechoecho)
 ( ) Kattis: IsItHalloween.com (https://open.kattis.com/problems/isithalloween)
 ( ) Kattis: Solving for carrots (https://open.kattis.com/problems/carrots)
 ( ) Codewars: Multiples of 3 or 5 (https://www.codewars.com/kata/514b92a657cdc65150000006)
-( ) Codewars: If you can't sleep, just count sheep!! (https://www.codewars.com/kata/5b077ebdaf15be5c7f000077)
-
+(*) Codewars: If you can't sleep, just count sheep!! (https://www.codewars.com/kata/5b077ebdaf15be5c7f000077)
 
 01.03. Operaciones matemáticas simples
 --------------------------------------
