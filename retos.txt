@@ -3,6 +3,7 @@ LISTADO DE RETOS POR CATEGORIA O NIVEL
 
 (+) - Retos resueltos en la web
 (*) - Retos planteados en la web
+(C) - Reservados para concursos en clase
 ( ) - Retos posibles, pero no planteados
 
 01.01. Introducción
@@ -42,19 +43,26 @@ LISTADO DE RETOS POR CATEGORIA O NIVEL
 (+) Codewars: Leap years (https://www.codewars.com/kata/526c7363236867513f0005ca)
 ( ) Codewars: Growth of a population (https://www.codewars.com/kata/563b662a59afc2b5120000c6)
 ( ) Kattis: The bus card (https://open.kattis.com/problems/busskortet)
+( ) Codewars: Frog's Dinner (https://www.codewars.com/kata/65f361be2b30ec19b78d758f)
 
 01.04. Combinando estructuras
 -----------------------------
 
 ( ) Kattis: Arrangement (https://open.kattis.com/problems/upprodun)
+( ) Kattis: Tarifa (https://open.kattis.com/problems/tarifa)
+( ) Acepta el Reto: 158 - Los saltos de Mario (https://aceptaelreto.com/problem/statement.php?id=158)
+( ) Acepta el Reto: 664 - Gálibo (https://aceptaelreto.com/problem/statement.php?id=664&cat=7)
 ( ) Acepta el Reto: 150 - ¡A dibujar hexágonos! (https://aceptaelreto.com/problem/statement.php?id=150)
+( ) Acepta el Reto: 162 - Tableros de ajedrez (https://aceptaelreto.com/problem/statement.php?id=162)
 ( ) Acepta el Reto: 622 - La media prometida (https://aceptaelreto.com/problem/statement.php?id=622)
+( ) Acepta el Reto: 472 - Caminando voy (https://aceptaelreto.com/problem/statement.php?id=472)
 
 01.05. Trabajando con tipos de datos
 ------------------------------------
 
 ( ) Kattis: Metronome (https://open.kattis.com/problems/metronome)
 ( ) Kattis: Betting (https://open.kattis.com/problems/betting)
+( ) Kattis: Ladder (https://open.kattis.com/problems/ladder)
 ( ) Acepta el Reto: 350 - El triángulo de mayor área (https://aceptaelreto.com/problem/statement.php?id=350)
 ( ) Acepta el Reto: 239 - Pi.Pi.Pi.Pi.Pi.Piiii (https://aceptaelreto.com/problem/statement.php?id=239)
 ( ) Acepta el Reto: 576 - Leyendo el diccionario (https://aceptaelreto.com/problem/statement.php?id=576)
@@ -76,10 +84,13 @@ Específicos de textos:
 
 ( ) Acepta el Reto: 105 - Ventas (https://aceptaelreto.com/problem/statement.php?id=105)
 ( ) Acepta el Reto: 485 - Senda pirenaica (https://aceptaelreto.com/problem/statement.php?id=485)
+( ) Acepta el Reto: 151 - ¿Es matriz identidad? (https://aceptaelreto.com/problem/statement.php?id=151)
 ( ) Acepta el Reto: 160 - Matrices triangulares (https://aceptaelreto.com/problem/statement.php?id=160)
 ( ) Kattis: Cold-puter science (https://open.kattis.com/problems/cold)
 ( ) Kattis: Missing numbers (https://open.kattis.com/problems/missingnumbers)
 ( ) Kattis: Plants vs Bad Guys (https://open.kattis.com/problems/pvbg)
+( ) Kattis: Pet (https://open.kattis.com/problems/pet)
+( ) Kattis: Dice Cup (https://open.kattis.com/problems/dicecup)
 ( ) Codewars: Highest rank number in array (https://www.codewars.com/kata/5420fc9bb5b2c7fd57000004)
 ( ) Codewars: Numbers with this digit inside (https://www.codewars.com/kata/57ad85bb7cb1f3ae7c000039)
 
@@ -89,6 +100,8 @@ Específicos de textos:
 ( ) Acepta el Reto: 168 - La pieza perdida (https://aceptaelreto.com/problem/statement.php?id=168)
 ( ) Acepta el Reto: 208 - Tirando bolos (https://aceptaelreto.com/problem/statement.php?id=208)
 ( ) Acepta el Reto: 114 - Último dígito del factorial (https://aceptaelreto.com/problem/statement.php?id=114)
+( ) Acepta el Reto: 478 - Conjuritis (https://aceptaelreto.com/problem/statement.php?id=478)
+( ) Acepta el Reto: 171 - Abadías pirenaicas (*POR RESOLVER)(https://aceptaelreto.com/problem/statement.php?id=171)
 
 02.03. Operaciones avanzadas con textos
 ---------------------------------------
@@ -110,17 +123,21 @@ Específicos de textos:
 03.01. Problemas recursivos simples
 -----------------------------------
 
+( ) Acepta el Reto: 272 - Tres dedos en cada mano (https://www.aceptaelreto.com/problem/statement.php?id=272)
 
 
 03.02. Problemas con objetos complejos
 --------------------------------------
 
 ( ) Acepta el Reto: 268 - Desarrollos en las bicicletas (https://aceptaelreto.com/problem/statement.php?id=268)
+( ) Acepta el Reto: 351 - Unidad Curiosa de Monitorización (https://aceptaelreto.com/problem/statement.php?id=351)
+( ) Acepta el Reto: 366 - Los niños buenos
 
 03.03. Problemas de búsqueda de soluciones
 ------------------------------------------
 
-
+( ) Acepta el Reto: 283 - Invirtiendo en Jaén (https://www.aceptaelreto.com/problem/statement.php?id=283)
+( ) Acepta el Reto: 479 - El hombre sin miedo y sin radar (https://aceptaelreto.com/problem/statement.php?id=479)
 
 03.04. Problemas de eficiencia en búsqueda de soluciones
 --------------------------------------------------------
