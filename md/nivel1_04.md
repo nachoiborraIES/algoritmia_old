@@ -186,7 +186,7 @@ Así, si tenemos, por ejemplo, 83 bloques, tendremos que tener en cuenta que:
 
 En <a href="https://www.codewars.com/kata/5b853229cfde412a470000d0" target="_blank">este reto</a> de *CodeWars* nos piden calcular cuántos años han pasado o pasarán para que un padre tenga el doble de años que un hijo, dadas sus edades actuales.
 
-Hay que tener en cuenta que este hecho habrá pasado ya, o pasará, dependiendo de las edades. Por ejemplo, si el padre 45 años y el hijo tiene 30, este hecho pasó hace 15 años, cuando el padre tenía 30 y el hijo 15. En cambio, si el padre tiene 30 años y el hijo tiene 7, el suceso ocurrirá dentro de 16 años, cuando el padre tenga 46 y el hijo 23.
+Hay que tener en cuenta que este hecho habrá pasado ya, o pasará, dependiendo de las edades. Por ejemplo, si el padre tiene 45 años y el hijo 30, este hecho pasó hace 15 años, cuando el padre tenía 30 y el hijo 15. En cambio, si el padre tiene 30 años y el hijo tiene 7, el suceso ocurrirá dentro de 16 años, cuando el padre tenga 46 y el hijo 23.
 
 La estrategia para resolver este reto puede ser la siguiente:
 
