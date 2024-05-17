@@ -192,6 +192,7 @@ La estrategia para resolver este reto puede ser la siguiente:
 
 * En primer lugar, vamos restando uno a los años de padre e hijo hasta que, o bien la edad del padre sea el doble que la del hijo, o bien el hijo llegue a 0 años.
 * Si no hemos conseguido encontrar la edad doble con el bucle anterior, entonces volvemos a las edades actuales y vamos sumándoles uno a cada edad, hasta que encontremos el doble.
+* En ambos casos usaremos un contador de años que nos cuente cuántas veces decrementamos o incrementamos las edades. Ese contador será la respuesta final, en uno u otro caso.
 
 <div class="ejercicio">
     <p><strong>Ejercicio 6:</strong></p>
