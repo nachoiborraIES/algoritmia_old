@@ -166,7 +166,7 @@ En <a href="https://open.kattis.com/problems/pyramids" target="_blank">este reto
 Para ello, hay que tener en cuenta que la primera altura (el pico superior) contiene un bloque. La siguiente altura contiene 9 bloques, es decir, 2 bloques más de ancho por cada lado (pasamos de 1x1 a 3x3). La siguiente altura tendrá una malla de 5x5 bloques... y así sucesivamente.
 
 <div align="center">
-    <img src="https://open.kattis.com/problems/pyramids/file/statement/en/img-0001.png" width="50%">
+    <img src="https://open.kattis.com/problems/pyramids/file/statement/en/img-0001.png" width="40%">
     <p><em>Fuente: open.kattis.com</em></p>
 </div>
 
