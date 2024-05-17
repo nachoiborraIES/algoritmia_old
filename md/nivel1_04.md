@@ -159,4 +159,41 @@ En definitiva, tendremos que decidir qué es mejor:
     <p>Trata de resolver este reto en Java y comprueba que la plataforma lo acepta.</p>
 </div>
 
+### 4.2. Construyendo pirámides
 
+En <a href="https://open.kattis.com/problems/pyramids" target="_blank">este reto</a> de *Kattis* nos piden que calculemos cuántas alturas de una pirámide podemos construir con un número determinado de bloques.
+
+Para ello, hay que tener en cuenta que la primera altura (el pico superior) contiene un bloque. La siguiente altura contiene 9 bloques, es decir, 2 bloques más de ancho por cada lado (pasamos de 1x1 a 3x3). La siguiente altura tendrá una malla de 5x5 bloques... y así sucesivamente.
+
+<div align="center">
+    <img src="https://open.kattis.com/problems/pyramids/file/statement/en/img-0001.png" width="50%">
+    <p><em>Fuente: open.kattis.com</em></p>
+</div>
+
+Así, si tenemos, por ejemplo, 83 bloques, tendremos que tener en cuenta que:
+
+* Gastaremos 1 bloque para el primer nivel
+* Gastaremos 9 bloques para el segundo nivel (10 en total)
+* Gastaremos 5x5 = 25 bloques para el tercer nivel (35 en total)
+* Gastaríamos 7 x 7 = 49 bloques para el cuarto nivel (84 en total), pero no tenemos suficientes. Así que nuestra respuesta en este caso será que podemos hacer 3 alturas.
+
+<div class="ejercicio">
+    <p><strong>Ejercicio 5:</strong></p>
+    <p>Trata de resolver este reto en C# y comprueba que la plataforma lo acepta.</p>
+</div>
+
+### 4.3. Dos veces mayor
+
+En <a href="https://www.codewars.com/kata/5b853229cfde412a470000d0" target="_blank">este reto</a> de *CodeWars* nos piden calcular cuántos años han pasado o pasarán para que un padre tenga el doble de años que un hijo, dadas sus edades actuales.
+
+Hay que tener en cuenta que este hecho habrá pasado ya, o pasará, dependiendo de las edades. Por ejemplo, si el padre 45 años y el hijo tiene 30, este hecho pasó hace 15 años, cuando el padre tenía 30 y el hijo 15. En cambio, si el padre tiene 30 años y el hijo tiene 7, el suceso ocurrirá dentro de 16 años, cuando el padre tenga 46 y el hijo 23.
+
+La estrategia para resolver este reto puede ser la siguiente:
+
+* En primer lugar, vamos restando uno a los años de padre e hijo hasta que, o bien la edad del padre sea el doble que la del hijo, o bien el hijo llegue a 0 años.
+* Si no hemos conseguido encontrar la edad doble con el bucle anterior, entonces volvemos a las edades actuales y vamos sumándoles uno a cada edad, hasta que encontremos el doble.
+
+<div class="ejercicio">
+    <p><strong>Ejercicio 6:</strong></p>
+    <p>Trata de resolver este reto en Python y comprueba que la plataforma lo acepta.</p>
+</div>
