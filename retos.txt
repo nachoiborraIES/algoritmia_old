@@ -36,6 +36,17 @@ LISTADO DE RETOS POR CATEGORIA O NIVEL
 (+) Acepta el Reto: 413 - Claras y oscuras (https://aceptaelreto.com/problem/statement.php?id=413)
 (*) Acepta el Reto: 474 - Tu amigable vecino (https://aceptaelreto.com/problem/statement.php?id=474)
 ( ) Acepta el Reto: 403 - En campos de fútbol (https://aceptaelreto.com/problem/statement.php?id=403)
+( ) Acepta el Reto: 119 - Escudos del ejército romano (https://aceptaelreto.com/problem/statement.php?id=119)
+( ) Acepta el Reto: 191 - Los problemas de ser rico (https://aceptaelreto.com/problem/statement.php?id=191)
+( ) Acepta el Reto: 354 - Los niños primero (https://aceptaelreto.com/problem/statement.php?id=354)
+( ) Acepta el Reto: 371 - Aburrimiento en las sobremesas (https://aceptaelreto.com/problem/statement.php?id=371)
+( ) Acepta el Reto: 407 - Rebotando en el parchís (https://aceptaelreto.com/problem/statement.php?id=407)
+( ) Acepta el Reto: 471 - Buscando el pinchazo (https://aceptaelreto.com/problem/mysubmissions.php?id=471)
+( ) Acepta el Reto: 532 - Reduciendo envases (https://aceptaelreto.com/problem/statement.php?id=532)
+( ) Acepta el Reto: 607 - Minimizando el castigo (https://aceptaelreto.com/problem/statement.php?id=607)
+( ) Acepta el Reto: 577 - Cucharadas de sopa (https://aceptaelreto.com/problem/statement.php?id=577)
+( ) Acepta el Reto: 615 - La pulga (https://aceptaelreto.com/problem/statement.php?id=615)
+(C) Acepta el Reto: 635 - Cinquecento (https://aceptaelreto.com/problem/statement.php?id=635)
 (+) Kattis: FYI (https://open.kattis.com/problems/fyi)
 (*) Kattis: Building pyramids (https://open.kattis.com/problems/pyramids)
 ( ) Codewars: Previous multiple of three (https://www.codewars.com/kata/61123a6f2446320021db987d)
@@ -67,11 +78,15 @@ LISTADO DE RETOS POR CATEGORIA O NIVEL
 ( ) Acepta el Reto: 239 - Pi.Pi.Pi.Pi.Pi.Piiii (https://aceptaelreto.com/problem/statement.php?id=239)
 ( ) Acepta el Reto: 576 - Leyendo el diccionario (https://aceptaelreto.com/problem/statement.php?id=576)
 ( ) Acepta el Reto: 236 - Los orígenes del ajedrez (https://aceptaelreto.com/problem/statement.php?id=236)
+( ) Acepta el Reto: 262 - Ada, Babbage y Bernouilli (https://aceptaelreto.com/problem/statement.php?id=262)
+( ) Acepta el Reto: 411 - Sobre la tela de una araña (https://aceptaelreto.com/problem/statement.php?id=411)
+( ) Acepta el Reto: 641 - Incidencia acumulada (https://aceptaelreto.com/problem/statement.php?id=641)
 
 Específicos de textos:
 
 ( ) Acepta el Reto: 427 - Yo soy tu... (https://aceptaelreto.com/problem/statement.php?id=427)
 ( ) Acepta el Reto: 344 - Conectando cables (https://aceptaelreto.com/problem/statement.php?id=344)
+( ) Acepta el Reto: 634 - Bandurria Hero (https://aceptaelreto.com/problem/statement.php?id=634)
 ( ) Kattis: Finding an A (https://open.kattis.com/problems/findingana)
 ( ) Kattis: Greetings (https://open.kattis.com/problems/greetings2)
 ( ) Kattis: Seven Wonders (https://open.kattis.com/problems/sevenwonders)
@@ -84,8 +99,11 @@ Específicos de textos:
 
 ( ) Acepta el Reto: 105 - Ventas (https://aceptaelreto.com/problem/statement.php?id=105)
 ( ) Acepta el Reto: 485 - Senda pirenaica (https://aceptaelreto.com/problem/statement.php?id=485)
+( ) Acepta el Reto: 608 - Peligro por hielo (https://aceptaelreto.com/problem/statement.php?id=608) (no son necesarios los arrays)
 ( ) Acepta el Reto: 151 - ¿Es matriz identidad? (https://aceptaelreto.com/problem/statement.php?id=151)
 ( ) Acepta el Reto: 160 - Matrices triangulares (https://aceptaelreto.com/problem/statement.php?id=160)
+( ) Acepta el Reto: 458 - En la mente del timonel (https://aceptaelreto.com/problem/statement.php?id=458)
+( ) Acepta el Reto: 465 - El cuello de los pilotos (https://aceptaelreto.com/problem/statement.php?id=465)
 ( ) Kattis: Cold-puter science (https://open.kattis.com/problems/cold)
 ( ) Kattis: Missing numbers (https://open.kattis.com/problems/missingnumbers)
 ( ) Kattis: Plants vs Bad Guys (https://open.kattis.com/problems/pvbg)
@@ -109,6 +127,11 @@ Específicos de textos:
 ( ) Acepta el Reto: 623 - El Joker de la primitiva (https://aceptaelreto.com/problem/statement.php?id=623)
 ( ) Acepta el Reto: 154 - ¿Cuál es la siguiente matrícula? (https://aceptaelreto.com/problem/statement.php?id=154)
 ( ) Acepta el Reto: 178 - Quinto milenio (https://aceptaelreto.com/problem/statement.php?id=178)
+( ) Acepta el Reto: 475 - Cameos de Stan Lee (https://aceptaelreto.com/problem/statement.php?id=475)
+( ) Acepta el Reto: 153 - Reloj a través del espejo (https://aceptaelreto.com/problem/statement.php?id=153)
+( ) Acepta el Reto: 466 - Multiplicando mal (https://aceptaelreto.com/problem/statement.php?id=466) -> Se hace mejor usando funciones
+( ) Acepta el Reto: 616 - Pic, poc, pic... pong! (https://aceptaelreto.com/problem/statement.php?id=616)
+( ) Acepta el Reto: 617 - Mensajes en Space Invaders (https://aceptaelreto.com/problem/statement.php?id=617)
 ( ) Kattis: Poker hand (https://open.kattis.com/problems/pokerhand)
 ( ) Kattis: Speed limit (https://open.kattis.com/problems/speedlimit)
 ( ) Kattis: Simon says (https://open.kattis.com/problems/simonsays)
@@ -118,11 +141,16 @@ Específicos de textos:
 02.04. Algoritmos voraces
 -------------------------
 
-
+( ) Acepta el Reto: 194 - Salvemos al lince ibérico (https://aceptaelreto.com/problem/statement.php?id=194)
+( ) Acepta el Reto: 284 - La tienda de la esquina (https://aceptaelreto.com/problem/statement.php?id=284)
+( ) Acepta el Reto: 650 - Oferta 3x2 (https://aceptaelreto.com/problem/statement.php?id=650)
+Reto de los castellers
 
 03.01. Problemas recursivos simples
 -----------------------------------
 
+( ) Acepta el Reto: 357 - La prueba de las cajas y las bolas (https://aceptaelreto.com/problem/statement.php?id=357)
+( ) Acepta el Reto: 515 - Poniendo la mesa (https://aceptaelreto.com/problem/statement.php?id=515)
 ( ) Acepta el Reto: 272 - Tres dedos en cada mano (https://www.aceptaelreto.com/problem/statement.php?id=272)
 
 
@@ -131,15 +159,30 @@ Específicos de textos:
 
 ( ) Acepta el Reto: 268 - Desarrollos en las bicicletas (https://aceptaelreto.com/problem/statement.php?id=268)
 ( ) Acepta el Reto: 351 - Unidad Curiosa de Monitorización (https://aceptaelreto.com/problem/statement.php?id=351)
-( ) Acepta el Reto: 366 - Los niños buenos
+( ) Acepta el Reto: 366 - Los niños buenos (https://aceptaelreto.com/problem/statement.php?id=366)
+( ) Acepta el Reto: 109 - Liga de pádel (https://aceptaelreto.com/problem/statement.php?id=109)
+( ) Acepta el Reto: 477 - A la captura del Doctor Muerte (https://aceptaelreto.com/problem/statement.php?id=477)
 
 03.03. Problemas de búsqueda de soluciones
 ------------------------------------------
 
 ( ) Acepta el Reto: 283 - Invirtiendo en Jaén (https://www.aceptaelreto.com/problem/statement.php?id=283)
 ( ) Acepta el Reto: 479 - El hombre sin miedo y sin radar (https://aceptaelreto.com/problem/statement.php?id=479)
+( ) Acepta el Reto: 244 - Reinas atacadas (https://aceptaelreto.com/problem/statement.php?id=244)
+( ) Acepta el Reto: 432 - Escapando de las fuerzas imperiales (https://aceptaelreto.com/problem/statement.php?id=432)
+( ) Acepta el Reto: 491 - Planificando las uvas (https://aceptaelreto.com/problem/statement.php?id=491)
 
 03.04. Problemas de eficiencia en búsqueda de soluciones
 --------------------------------------------------------
 
+Ejemplo de serie de Fibonacci y llamadas recursivas. Concepto de "programación dinámica"
+( ) Acepta el Reto: 107 - Aproximación de Gauss (https://aceptaelreto.com/problem/statement.php?id=107)
+
+03.05. Problemas con colecciones de datos
+-----------------------------------------
+
+( ) Acepta el Reto: 416 - Michael J. Fox y el Pato Donald (https://aceptaelreto.com/problem/statement.php?id=416)
+( ) Acepta el Reto: 624 - Doblando calcetines (https://aceptaelreto.com/problem/statement.php?id=624)
+( ) Acepta el Reto: 633 - Arca de Noé (https://aceptaelreto.com/problem/statement.php?id=633)
+( ) Acepta el Reto: 637 - El telegrama más corto (https://aceptaelreto.com/problem/mysubmissions.php?id=637)
 
