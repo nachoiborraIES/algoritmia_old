@@ -49,6 +49,7 @@ LISTADO DE RETOS POR CATEGORIA O NIVEL
 (C) Acepta el Reto: 635 - Cinquecento (https://aceptaelreto.com/problem/statement.php?id=635)
 (+) Kattis: FYI (https://open.kattis.com/problems/fyi)
 (*) Kattis: Building pyramids (https://open.kattis.com/problems/pyramids)
+( ) Kattis: Tarifa (https://open.kattis.com/problems/tarifa)
 ( ) Codewars: Previous multiple of three (https://www.codewars.com/kata/61123a6f2446320021db987d)
 (*) Codewars: Twice as old (https://www.codewars.com/kata/5b853229cfde412a470000d0)
 (+) Codewars: Leap years (https://www.codewars.com/kata/526c7363236867513f0005ca)
@@ -60,7 +61,6 @@ LISTADO DE RETOS POR CATEGORIA O NIVEL
 -----------------------------
 
 ( ) Kattis: Arrangement (https://open.kattis.com/problems/upprodun)
-( ) Kattis: Tarifa (https://open.kattis.com/problems/tarifa)
 ( ) Acepta el Reto: 158 - Los saltos de Mario (https://aceptaelreto.com/problem/statement.php?id=158)
 ( ) Acepta el Reto: 664 - Gálibo (https://aceptaelreto.com/problem/statement.php?id=664&cat=7)
 ( ) Acepta el Reto: 150 - ¡A dibujar hexágonos! (https://aceptaelreto.com/problem/statement.php?id=150)
