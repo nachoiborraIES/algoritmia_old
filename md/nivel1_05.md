@@ -176,3 +176,95 @@ int main()
     <p><strong>Ejercicio 2:</strong></p>
     <p>Trata de resolver este mismo reto en Java y comprueba que la plataforma lo acepta. <strong>¡CUIDADO!</strong>: la lectura de los datos de entrada para cada caso puede resultar algo más compleja en Java, al estar el número y el símbolo en la misma línea.</p>
 </div>
+
+## 3. Más retos para practicar
+
+Agrupamos en este apartado otros retos de características similares para practicar.
+
+### 3.1. Gálibo
+
+En <a href="https://aceptaelreto.com/problem/statement.php?id=664" target="_blank">este reto</a> de *Acepta el Reto* debemos calcular la altura máxima que puede tener un camión para pasar por una serie de puentes.
+
+Cada caso de prueba que nos dan está compuesto por estos datos:
+
+* Primero nos dirán cuántos puentes tiene que atravesar el camión
+* Para cada puente, en la segunda línea nos dirán cuántos carriles hay en la autovía, y la altura que tiene cada carril al pasar bajo el puente
+* El problema termina cuando leamos 0 puentes como primer dato del caso de prueba
+
+Como resultado tendremos que mostrar la altura máxima que puede tener el camión para poder pasar por debajo de cada puente (eligiendo el carril apropiado).
+
+Veamos algunas pistas para resolver este problema:
+
+* Una vez leamos el número de puentes, construiremos un bucle para procesar cada puente
+* Dentro de este bucle, tendremos que leer el número de carriles, y con ello construiremos un segundo bucle (anidado) para leer la altura de cada carril
+* De cada puente nos interesa quedarnos con el carril que tenga más altura (por ahí pasará el camión)
+* Por otra parte, de todos los puentes que examinemos nos tendremos que quedar con la altura seleccionada que sea menor (ya que ésa será la que condicione si el camión puede pasar por todos los puentes o no)
+
+Veamos el siguiente caso de prueba:
+
+```
+2
+3 300 300 250
+2 325 200
+```
+
+Nos dicen que hay dos puentes:
+
+* El primero de ellos tiene 3 carriles con alturas 300, 300 y 250. Elegiremos cualquiera de los carriles de 300 (altura máxima para poder pasar)
+* El segundo puente tiene 2 carriles de alturas 325 y 200. Elegiremos el carril de 325 para poder pasar
+* De las alturas de los dos puentes, la más pequeña por la que pasaremos es la de 300, por lo que nuestra altura máxima de camión tendrá que ser de 300
+* AYUDA: Cada vez que termines de procesar un puente y escoger su altura máxima, compárala con la altura máxima que lleves hasta ahora y, si es menor, quédate con la menor.
+
+<div class="ejercicio">
+    <p><strong>Ejercicio 3:</strong></p>
+    <p>Trata de resolver este reto en Java y comprueba que la plataforma lo acepta.</p>
+</div>
+
+### 3.2. Distribución
+
+En <a href="https://open.kattis.com/problems/upprodun" target="_blank">este reto</a> de *Kattis* tenemos que distribuir a los equipos de una competición de programación en salas. Nos darán como entrada el número N de salas y el número M de equipos. Hay que tener en cuenta que todas las salas son de un tamaño similar, y el objetivo es distribuir los equipos de forma equitativa entre las salas.
+
+La salida tendrá que contener N líneas (una por cada sala). En cada línea dibujaremos un asterisco `*` por cada equipo que esté ubicado en esa sala.
+
+Veamos algunos ejemplos que indica el enunciado:
+
+* Si nos dan N = 1 salas y M = 5 equipos, evidentemente debemos colocar los 5 equipos en la única sala disponible. La salida del problema será la siguiente:
+
+```
+*****
+```
+
+* Si nos dan N = 3 salas y M = 8 equipos, hay que distribuir los equipos de forma equitativa. El propio reto dice que se admiten distintas soluciones equivalentes. En este caso, al haber 3 salas cada sala tendrá 2 equipos, y dos de ellas añadirán un equipo más para completar los 8 que hay. Aquí vemos algunas posibles soluciones (en columnas independientes, bastaría con mostrar una de ellas):
+
+```
+**       ***      ***
+***      **       ***
+***      ***      **
+```
+
+Explicamos algunas pistas para resolver el reto:
+
+* Como podrás deducir el número de equipos que va a cada sala es el cociente (entero) entre el número de equipos y el número de salas. En el ejemplo anterior 8 equipos repartidos entre 3 salas = 2 equipos por sala.
+* El resto de equipos que no han cabido en la división entera (2 equipos en el ejemplo anterior), se van añadiendo uno por sala, hasta que ya no queden.
+
+<div class="ejercicio">
+    <p><strong>Ejercicio 4:</strong></p>
+    <p>Trata de resolver este reto en Python y comprueba que la plataforma lo acepta.</p>
+</div>
+
+### 3.3. La media prometida
+
+En <a href="https://aceptaelreto.com/problem/statement.php?id=622" target="_blank">este reto</a> de *Acepta el Reto* debemos ayudar a una alumna a saber qué nota sacar en su último examen para obtener la nota media (exacta) que quiere sacar.
+
+Para cada caso de prueba, primero nos dirán cuántos exámenes ha hecho la alumna, y luego leeremos en la segunda línea las notas que ha sacado en esos exámenes. Finalmente, en la tercera línea leeremos la media que quiere sacar. A partir de aquí tendremos que averiguar qué tiene que sacar en su último examen para conseguir esa media y, si no es posible, mostraremos por pantalla "IMPOSIBLE".
+
+Veamos algunos ejemplos:
+
+* La alumna ha hecho 3 exámenes, en los que ha sacado 6, 6 y 6. Y ella quiere sacar de media un 6. Evidentemente, en su último examen tendrá que volver a sacar un 6 para obtener esa media.
+* Si ha hecho 2 exámenes con notas de 10 y 10, y ella quiere sacar un 7, tendrá que sacar un 1 en su último examen para que la media de notas (10 + 10 + 1) / 3 dé 7.
+* Si ha hecho 3 exámenes con notas de 6, 6 y 7 y quiere sacar de media un 8, le diremos que es IMPOSIBLE, porque para sacar una media de 8 con 4 exámenes la suma de los 4 tendría que dar 32 (para que, al dividir entre 4 salga 8). Pero 6 + 6 + 7 = 19. Tendría que sacar un 13 en el último examen para llegar a 32, y eso es imposible.
+
+<div class="ejercicio">
+    <p><strong>Ejercicio 5:</strong></p>
+    <p>Trata de resolver este reto en C++ y comprueba que la plataforma lo acepta.</p>
+</div>

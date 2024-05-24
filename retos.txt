@@ -60,12 +60,12 @@ LISTADO DE RETOS POR CATEGORIA O NIVEL
 01.04. Combinando estructuras
 -----------------------------
 
-( ) Kattis: Arrangement (https://open.kattis.com/problems/upprodun)
+(*) Kattis: Arrangement (https://open.kattis.com/problems/upprodun)
 (+) Acepta el Reto: 158 - Los saltos de Mario (https://aceptaelreto.com/problem/statement.php?id=158)
-( ) Acepta el Reto: 664 - Gálibo (https://aceptaelreto.com/problem/statement.php?id=664&cat=7)
+(*) Acepta el Reto: 664 - Gálibo (https://aceptaelreto.com/problem/statement.php?id=664)
 (+) Acepta el Reto: 150 - ¡A dibujar hexágonos! (https://aceptaelreto.com/problem/statement.php?id=150)
 ( ) Acepta el Reto: 162 - Tableros de ajedrez (https://aceptaelreto.com/problem/statement.php?id=162)
-( ) Acepta el Reto: 622 - La media prometida (https://aceptaelreto.com/problem/statement.php?id=622)
+(*) Acepta el Reto: 622 - La media prometida (https://aceptaelreto.com/problem/statement.php?id=622)
 ( ) Acepta el Reto: 472 - Caminando voy (https://aceptaelreto.com/problem/statement.php?id=472)
 
 01.05. Trabajando con tipos de datos
