@@ -140,12 +140,16 @@ table, td, th
     border-collapse: collapse;
 }
 
-.ejercicio
+.ejercicio, .demostracion
 {
-    background-color: #e5e5e5;
     margin: 20px 0;
     padding: 20px;
     border-radius: 10px;
+}
+
+.ejercicio
+{
+    background-color: #e5e5e5;
 }
 
 .demostracion
