@@ -100,15 +100,15 @@ Para conocer cuál es el área mayor que se puede formar, todo depende del ángu
 
 <div class="demostracion">
 
-    <p>Llamaremos <code>a</code> y <code>b</code> a los dos segmentos que tenemos, y <code>A</code> al ángulo que forman.</p>
+    <p>Llamaremos <strong>a</strong> y <strong>b</strong> a los dos segmentos que tenemos, y <strong>A</strong> al ángulo que forman.</p>
 
     <div align="center">
         <img src="/algoritmia/img/reto350_1.png" width="30%">
     </div>
 
-    <p>El área la calcularíamos como <code>base · altura / 2</code>, siendo la base el lado <code>a</code> y la altura la cantidad <code>h</code> que no conocemos. Sin embargo, aplicando trigonometría se tiene que el seno del ángulo <code>A</code> que forman <code>a</code> y <code>b</code> se calcula dividiendo <code>h / b</code>. Despejando <code>h</code> en esa fórmula, se tiene que <code>h = b · sen A</code>.</p>
+    <p>El área la calcularíamos como <strong>base · altura / 2</strong>, siendo la base el lado <strong>a</strong> y la altura la cantidad <strong>h</strong> que no conocemos. Sin embargo, aplicando trigonometría se tiene que el seno del ángulo <strong>A</strong> que forman <strong>a</strong> y <strong>b</strong> se calcula dividiendo <strong>h / b</strong>. Despejando <strong>h</strong> en esa fórmula, se tiene que <strong>h = b · sen A</strong>.</p>
 
-    <p>Con esto, el área del triángulo la podemos calcular en cualquier caso como <code>(a · b · sen A) / 2</code>. Como <code>a</code> y <code>b</code> ya sabemos lo que valen, este área será máxima cuanto mayor sea el seno del ángulo que forman <code>A</code>. El ángulo que tiene el mayor valor del seno es el de 90º, cuyo seno vale 1 y, por tanto, obtendremos la mayor área poniendo los lados en ángulo recto, y el área quedaría como <code>(a · b · 1) / 2</code>.</p>
+    <p>Con esto, el área del triángulo la podemos calcular en cualquier caso como <strong>(a · b · sen A) / 2</strong>. Como <strong>a</strong> y <strong>b</strong> ya sabemos lo que valen, este área será máxima cuanto mayor sea el seno del ángulo que forman <strong>A</strong>. El ángulo que tiene el mayor valor del seno es el de 90º, cuyo seno vale 1 y, por tanto, obtendremos la mayor área poniendo los lados en ángulo recto, y el área quedaría como <strong>a · b (· 1) / 2</strong>.</p>
 
 </div>
 
