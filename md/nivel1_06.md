@@ -89,12 +89,14 @@ int main()
 
 ## 2. Practicando el formateo de números reales: el triángulo de mayor área
 
-En <a href="https://aceptaelreto.com/problem/statement.php?id=236" target="_blank">este reto</a> de *Acepta el Reto* tenemos que calcular cuál es el área del mayor triángulo que se puede formar sabiendo cuánto miden dos de sus lados.
+En <a href="https://aceptaelreto.com/problem/statement.php?id=350" target="_blank">este reto</a> de *Acepta el Reto* tenemos que calcular cuál es el área del mayor triángulo que se puede formar sabiendo cuánto miden dos de sus lados.
 
 <div align="center">
     <img src="https://aceptaelreto.com/pub/problems/v003/50/st/statements/Spanish/Triangulos.svg" width="60%">
     <p><em>Fuente: Acepta el Reto</em></p>
 </div>
+
+Nos irán dando parejas de lados para calcular el área máxima, hasta que nos den dos lados que valen 0.
 
 Para conocer cuál es el área mayor que se puede formar, todo depende del ángulo que formemos con esos dos segmentos, como puede verse en la imagen anterior. Intuitivamente puede verse que ese área será mayor cuanto más perpendiculares pongamos entre sí los segmentos, aunque también se puede demostrar matemáticamente. 
 
@@ -111,4 +113,63 @@ Para conocer cuál es el área mayor que se puede formar, todo depende del ángu
     <p>Con esto, el área del triángulo la podemos calcular en cualquier caso como <strong>(a · b · sen A) / 2</strong>. Como <strong>a</strong> y <strong>b</strong> ya sabemos lo que valen, este área será máxima cuanto mayor sea el seno del ángulo que forman <strong>A</strong>. El ángulo que tiene el mayor valor del seno es el de 90º, cuyo seno vale 1 y, por tanto, obtendremos la mayor área poniendo los lados en ángulo recto, y el área quedaría como <strong>a · b (· 1) / 2</strong>.</p>
 
 </div>
+
+Aplicando este razonamiento, sean cuales sean los dos lados *a* y *b* que nos den calcularemos el área máxima como `a * b / 2`. Una de las peculiaridades de este problema es que tenemos que sacar el resultado formateado con 1 decimal (ya que puede que no sea exacto). Veamos cómo hacer esto en distintos lenguajes:
+
+* En el caso de **Java**, disponemos de una instrucción llamada `System.out.printf`. Entre comillas, con el símbolo `%f` indicamos que queremos intercalar un número real. Entre el porcentaje y la *f* podemos especificar cuántas cifras decimales queremos. Por ejemplo, de este modo sacaríamos la variable `numero` con 2 decimales (ponemos al final `\n` para pasar a la siguiente línea):
+
+```java
+float numero;
+...
+System.out.printf("El número vale %.2f\n", numero);
+```
+
+* En el caso de **C++** el funcionamiento es similar, pero con la instrucción `printf` (que también tiene el lenguaje C):
+
+```cpp
+float numero;
+...
+printf("El número vale %.2f\n", numero);
+```
+
+* En el caso de **C#** (aunque *Acepta el Reto* no admite este lenguaje) podemos usar la instrucción `ToString` de la variable a mostrar, indicando entre comillas el número de decimales, tras la letra *N*. Así quedaría el ejemplo anterior:
+
+```cs
+float numero;
+...
+System.Console.WriteLine("El número vale" + numero.ToString("N2"));
+```
+
+* Finalmente, en **Python** (aunque *Acepta el Reto* tampoco lo acepta como lenguaje a utilizar), tenemos una sintaxis similar a la instrucción *printf* anterior, pero usando la instrucción `print` de Python:
+
+```py
+print(f'El número vale {numero:.2f}')
+```
+
+Con todo lo anterior, el reto del triángulo de mayor área se resolvería así en Java:
+
+```java
+import java.util.Scanner;
+
+public class Reto350
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        float a, b, area;
+        
+        do
+        {
+            a = sc.nextFloat();
+            b = sc.nextFloat();
+            if(a != 0 || b != 0)
+            {
+                area = a * b / 2;
+                System.out.printf("%.1f\n", area);
+            }
+        }
+        while(a != 0 || b != 0);
+    }
+}
+```
 
