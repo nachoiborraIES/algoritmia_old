@@ -103,7 +103,7 @@ Para conocer cuál es el área mayor que se puede formar, todo depende del ángu
     <p>Llamaremos <code>a</code> y <code>b</code> a los dos segmentos que tenemos, y <code>A</code> al ángulo que forman.</p>
 
     <div align="center">
-        <img src="/algoritmia/img/reto350_1.png" width="80%">
+        <img src="/algoritmia/img/reto350_1.png" width="30%">
     </div>
 
     <p>El área la calcularíamos como <code>base · altura / 2</code>, siendo la base el lado <code>a</code> y la altura la cantidad <code>h</code> que no conocemos. Sin embargo, aplicando trigonometría se tiene que el seno del ángulo <code>A</code> que forman <code>a</code> y <code>b</code> se calcula dividiendo <code>h / b</code>. Despejando <code>h</code> en esa fórmula, se tiene que <code>h = b · sen A</code>.</p>
