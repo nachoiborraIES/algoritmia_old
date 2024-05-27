@@ -173,3 +173,119 @@ public class Reto350
 }
 ```
 
+<div class="ejercicio">
+    <p><strong>Ejercicio 2:</strong></p>
+    <p>Trata de resolver este mismo reto en C++ y comprueba que la plataforma lo acepta.</p>
+</div>
+
+### 2.1. Metrónomo
+
+En <a href="https://open.kattis.com/problems/metronome" target="_blank">este reto</a> de *Kattis* nos piden que calculemos el número de revoluciones de un metrónomo. Los metrónomos se utilizan en música para mantener el ritmo de una canción o pieza musical. En el enunciado se explica que, para cada vuelta o revolución completa del metrónomo, se producen 4 *ticks*. Con esto, y dada la longitud de una canción en *ticks* del metrónomo, ¿a cuántas revoluciones o vueltas se debe ajustar el metrónomo para que termine justo cuando termina la canción? La cantidad la debemos dar ajustada a 2 cifras decimales
+
+Por ejemplo, si la longitud de la canción es de 16 *ticks*, a 4 *ticks* por vuelta tendremos que ajustarlo a *4.00* vueltas. En cambio, si la longitud es de 99 *ticks*, a 4 *ticks* por vuelta la tendremos que ajustar a *24.75* ticks.
+
+<div class="ejercicio">
+    <p><strong>Ejercicio 3:</strong></p>
+    <p>Trata de resolver este reto en C# y comprueba que la plataforma lo acepta. <strong>CUIDADO!</strong> En este caso, si el resultado tiene menos de 2 decimales no tendrás que mostrarlos todos. Para ello, en la instrucción <em>ToString</em> te será de utilidad el símbolo de la almohadilla #, en lugar de especificar con N directamente el número de decimales.</p>
+</div>
+
+## 3. Formateo de otros datos numéricos: leyendo el diccionario
+
+En <a href="https://aceptaelreto.com/problem/statement.php?id=576" target="_blank">este reto</a> de *Acepta el Reto* nos pide que calculemos cuánto tiempo se tarda en leer un diccionario. Para cada caso de prueba nos dan:
+
+* En una línea, cuántos segundos se necesitan para leer cada entrada del diccionario. El reto termina cuando leamos 0 como cantidad.
+* En la siguiente línea vienen varios números. Cada uno indica el número de entradas que hay en cada página del diccionario. Esta secuencia termina con un 0, para indicar que ya no hay más páginas en el diccionario.
+
+La peculiaridad de este reto es que debemos mostrar el tiempo total en el formato *hh:mm:ss** (*horas:minutos:segundos*, con dos dígitos en cada parte). 
+
+* Como primer paso, tendremos que calcular los segundos que tardaremos en total en procesar el diccionario. Para ello sumaremos el total de entradas de todas las páginas (números de la segunda línea del caso de prueba), y multiplicaremos ese total por los segundos que tardamos en leer cada entrada (número de la primera línea del caso de prueba)
+* Ahora tenemos que pasar esa cantidad en segundos a horas, minutos y segundos. Para ello debemos hacerlo de esta manera:
+  * Primero calculamos el número de horas que son esos segundos, dividiendo los segundos entre 3600 segundos que tiene una hora
+  * El resto de la división anterior son los segundos restantes, que deberemos convertir en minutos dividiendo entre 60 segundos que tiene un minuto
+  * El resto de esta segunda división son los segundos que nos quedan al final
+
+Una vez tengamos los cálculos hechos debemos mostrar la salida. En este caso, cada dato numérico entero debemos mostrarlo con dos dígitos. Veremos cómo se hace eso en los distintos lenguajes...
+
+* En el caso de **Java**, la misma instrucción `System.out.printf` vista antes admite un símbolo `%d` para indicar que queremos intercalar un número entero. Entre el porcentaje y la *d* podemos indicar cuánto espaciado o ceros queremos añadir para completar. Por ejemplo, de este modo sacaríamos la variable `numero` con 2 dígitos, rellenando con ceros:
+
+```java
+int numero;
+...
+System.out.printf("El número vale %02d\n", numero);
+```
+
+* En el caso de **C++** el funcionamiento es similar, pero con la instrucción `printf` (que también tiene el lenguaje C):
+
+```cpp
+int numero;
+...
+printf("El número vale %02d\n", numero);
+```
+
+* En el caso de **C#** (aunque *Acepta el Reto* no admite este lenguaje) podemos usar la instrucción `ToString` de la variable a mostrar, indicando entre comillas tantos ceros como cifras queramos mostrar. Así quedaría el ejemplo anterior:
+
+```cs
+int numero;
+...
+System.Console.WriteLine("El número vale" + numero.ToString("00"));
+```
+
+* Finalmente, en **Python** (aunque *Acepta el Reto* tampoco lo acepta como lenguaje a utilizar), tenemos una sintaxis similar a la instrucción *printf* anterior, pero usando la instrucción `print` de Python:
+
+```py
+print(f'El número vale {numero:02d}')
+```
+
+Con todo esto, la solución al reto en C++ podría quedar así:
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    int segundosPalabra, numEntradas, totalEntradas, horas, minutos, segundos;
+    
+    do
+    {
+        cin >> segundosPalabra;
+        if(segundosPalabra != 0)
+        {
+            // Procesamos la línea con las entradas por página
+            totalEntradas = 0;
+            do
+            {
+                // Vamos leyendo hasta encontrar un 0
+                // y acumulando en el total de entradas
+                cin >> numEntradas;
+                if(numEntradas != 0)
+                {
+                    totalEntradas += numEntradas;
+                }
+            }
+            while(numEntradas != 0);
+            
+            // Calculamos tiempo total en segundos
+            segundos = totalEntradas * segundosPalabra;
+            // Calculamos horas
+            horas = segundos / 3600;
+            // Calculamos minutos
+            minutos = (segundos % 3600) / 60;
+            // Calculamos segundos
+            segundos = (segundos % 3600) % 60;
+            
+            // Mostramos resultado
+            printf("%02d:%02d:%02d\n", horas, minutos, segundos);
+        }
+    }
+    while(segundosPalabra != 0);
+
+    return 0;
+}
+```
+
+<div class="ejercicio">
+    <p><strong>Ejercicio 4:</strong></p>
+    <p>Trata de resolver este mismo reto en Java y comprueba que la plataforma lo acepta.</p>
+</div>
