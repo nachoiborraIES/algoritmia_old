@@ -111,17 +111,7 @@ Específicos de textos:
 ( ) Codewars: Highest rank number in array (https://www.codewars.com/kata/5420fc9bb5b2c7fd57000004)
 ( ) Codewars: Numbers with this digit inside (https://www.codewars.com/kata/57ad85bb7cb1f3ae7c000039)
 
-02.02. Mejorando la eficiencia
-------------------------------
-
-( ) Acepta el Reto: 168 - La pieza perdida (https://aceptaelreto.com/problem/statement.php?id=168)
-( ) Acepta el Reto: 208 - Tirando bolos (https://aceptaelreto.com/problem/statement.php?id=208)
-( ) Acepta el Reto: 114 - Último dígito del factorial (https://aceptaelreto.com/problem/statement.php?id=114)
-( ) Acepta el Reto: 478 - Conjuritis (https://aceptaelreto.com/problem/statement.php?id=478)
-( ) Acepta el Reto: 171 - Abadías pirenaicas (*POR RESOLVER)(https://aceptaelreto.com/problem/statement.php?id=171)
-( ) Acepta el Reto: 641 - Incidencia acumulada (https://aceptaelreto.com/problem/statement.php?id=641)
-
-02.03. Operaciones avanzadas con textos
+02.02. Operaciones avanzadas con textos
 ---------------------------------------
 
 ( ) Acepta el Reto: 623 - El Joker de la primitiva (https://aceptaelreto.com/problem/statement.php?id=623)
@@ -137,6 +127,16 @@ Específicos de textos:
 ( ) Kattis: Simon says (https://open.kattis.com/problems/simonsays)
 ( ) Kattis: Code to save lives (https://open.kattis.com/problems/codetosavelives)
 ( ) Kattis: Honour Thy (Apaxian) Parent (https://open.kattis.com/problems/apaxianparent)
+
+02.03. Mejorando la eficiencia
+------------------------------
+
+( ) Acepta el Reto: 168 - La pieza perdida (https://aceptaelreto.com/problem/statement.php?id=168)
+( ) Acepta el Reto: 208 - Tirando bolos (https://aceptaelreto.com/problem/statement.php?id=208)
+( ) Acepta el Reto: 114 - Último dígito del factorial (https://aceptaelreto.com/problem/statement.php?id=114)
+( ) Acepta el Reto: 478 - Conjuritis (https://aceptaelreto.com/problem/statement.php?id=478)
+( ) Acepta el Reto: 171 - Abadías pirenaicas (*POR RESOLVER)(https://aceptaelreto.com/problem/statement.php?id=171)
+( ) Acepta el Reto: 641 - Incidencia acumulada (https://aceptaelreto.com/problem/statement.php?id=641)
 
 02.04. Algoritmos voraces
 -------------------------
