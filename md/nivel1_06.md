@@ -33,6 +33,8 @@ En cambio, en este otro caso:
 3 2 3
 ```
 
+Comenzamos con 3 granos en la primera casilla, debemos multiplicar por 2 en cada cambio de casilla y hay 3 casillas:
+
 * Partimos de 3 granos en la primera casilla
 * Segunda casilla = 3 * 2 = 6 granos
 * Tercera casilla = 6 * 2 = 12 granos
@@ -182,7 +184,7 @@ public class Reto350
 
 En <a href="https://open.kattis.com/problems/metronome" target="_blank">este reto</a> de *Kattis* nos piden que calculemos el número de revoluciones de un metrónomo. Los metrónomos se utilizan en música para mantener el ritmo de una canción o pieza musical. En el enunciado se explica que, para cada vuelta o revolución completa del metrónomo, se producen 4 *ticks*. Con esto, y dada la longitud de una canción en *ticks* del metrónomo, ¿a cuántas revoluciones o vueltas se debe ajustar el metrónomo para que termine justo cuando termina la canción? La cantidad la debemos dar ajustada a 2 cifras decimales
 
-Por ejemplo, si la longitud de la canción es de 16 *ticks*, a 4 *ticks* por vuelta tendremos que ajustarlo a *4.00* vueltas. En cambio, si la longitud es de 99 *ticks*, a 4 *ticks* por vuelta la tendremos que ajustar a *24.75* ticks.
+Por ejemplo, si la longitud de la canción es de 16 *ticks*, a 4 *ticks* por vuelta tendremos que ajustarlo a *4.00* vueltas. En cambio, si la longitud es de 99 *ticks*, a 4 *ticks* por vuelta la tendremos que ajustar a *24.75* vueltas o revoluciones.
 
 <div class="ejercicio">
     <p><strong>Ejercicio 3:</strong></p>
@@ -206,7 +208,7 @@ La peculiaridad de este reto es que debemos mostrar el tiempo total en el format
 
 Una vez tengamos los cálculos hechos debemos mostrar la salida. En este caso, cada dato numérico entero debemos mostrarlo con dos dígitos. Veremos cómo se hace eso en los distintos lenguajes...
 
-* En el caso de **Java**, la misma instrucción `System.out.printf` vista antes admite un símbolo `%d` para indicar que queremos intercalar un número entero. Entre el porcentaje y la *d* podemos indicar cuánto espaciado o ceros queremos añadir para completar. Por ejemplo, de este modo sacaríamos la variable `numero` con 2 dígitos, rellenando con ceros:
+* En el caso de **Java**, la misma instrucción `System.out.printf` vista antes admite un símbolo `%d` para indicar que queremos intercalar un número entero. Entre el porcentaje y la *d* podemos indicar cuánto espaciado o ceros queremos añadir para completar. Por ejemplo, de este modo sacaríamos la variable `numero` con 2 dígitos, rellenando con ceros (el *0* delante del *2* indica el carácter de relleno para los espacios que queden):
 
 ```java
 int numero;
@@ -288,4 +290,129 @@ int main() {
 <div class="ejercicio">
     <p><strong>Ejercicio 4:</strong></p>
     <p>Trata de resolver este mismo reto en Java y comprueba que la plataforma lo acepta.</p>
+</div>
+
+### 3.1 Señales horarias
+
+En <a href="https://aceptaelreto.com/problem/statement.php?id=239" target="_blank">este reto</a> de *Acepta el Reto* debemos calcular cuánto tiempo han estado sonando señales horarias en emisoras de radio. Estas señales se producen cada hora, y consisten en una serie de pitidos consecutivos. En concreto, el tiempo que dura la emisión de esos pitidos es de 6 segundos, según el enunciado, pero si eso lo multiplicamos por varias emisoras y días de emisión, se puede convertir en mucho tiempo.
+
+Cada caso de prueba estará compuesto de dos números en una sola línea, separados por espacios:
+
+* El primero de ellos es el número de días en que se está contabilizando la emisión
+* El segundo es el número de emisoras que se tienen en cuenta durante esos días
+* El problema finaliza al recibir dos ceros como entrada
+
+Como salida debemos mostrar el tiempo total que han estado emitiendo señales horarias todas las emisoras todos esos días. Igual que en el reto anterior, mostraremos el resultado con el formato *hh:mm:ss*.
+
+Por ejemplo, si nos dan este caso de entrada:
+
+```
+3 9
+```
+
+Quiere decir que contabilizamos 3 días y 9 emisoras. Cada día tendrá 24 horas, multiplicado por 3 días son 72, y multiplicado por 9 emisoras son 648 veces que se emite la señal horaria en ese período de estudio. Como cada emisión son 6 segundos, se ha estado emitiendo un total de 648 · 6 = 3888 segundos. Esta cantidad es la que tenemos que pasar al formato *hh:mm:ss*, quedando en este caso *01:04:48*.
+
+<div class="ejercicio">
+    <p><strong>Ejercicio 5:</strong></p>
+    <p>Trata de resolver este reto en Java y comprueba que la plataforma lo acepta.</p>
+</div>
+
+## 4. Procesamiento sencillo de textos: Bandurria Hero
+
+En <a href="https://aceptaelreto.com/problem/statement.php?id=634" target="_blank">este reto</a> de *Acepta el Reto* nos proponen un videojuego llamado *Bandurria Hero* en el que tenemos que sumar puntos con notas correctas tocadas con la bandurria, al estilo de videojuegos como *Guitar Hero*.
+
+Como entrada primero leeremos el número de casos de prueba. Cada entrada estará formada por un texto (una línea) formada por símbolos de *O* mayúsculas y puntos. Cada *O* mayúscula supone una nota tocada correctamente, y cada punto una nota incorrecta. Cada nota correcta supone 10 puntos, y si encadenamos varias seguidas, cada una supone 10 puntos más que la anterior.
+
+Por ejemplo, para este caso de prueba:
+
+```
+OO.OO..
+```
+
+* La primera *O* daría 10 puntos
+* La segunda *O*, al ser consecutiva con la anterior, serían 10+10 = 20
+* Luego viene un punto (nota incorrecta)
+* Luego viene otra *O* que vuelve a sumar 10 puntos (no es consecutiva con ningún acierto anterior)
+* A continuación llega otra *O* que suma 10+10 = 20 puntos
+* Finalmente llegan dos notas incorrectas que no suman
+* En total, la puntuación será de 10 + 20 + 10 + 20 = 60 puntos.
+
+Para resolver el reto, primero leeremos el número de casos de prueba y con ello construiremos un bucle *for* para procesar cada caso. Internamente leeremos el caso en un *string* y lo recorreremos letra a letra hasta el final. Para cada letra:
+
+* Si es una O, tendremos que distinguir si había una O previa (en cuyo caso sumamos 10 a la puntuación del símbolo anterior) o no (en cuyo caso sumamos 10 puntos nada más)
+* Si es un punto, no sumamos nada.
+
+Así podríamos resolver el reto en Java. Observa cómo leemos los datos de entrada: primero leemos el *int* con los casos de prueba y pasamos a la siguiente línea (*nextLine*), para leer uno a uno los casos de prueba dentro del *for*:
+
+```java
+import java.util.Scanner;
+
+public class Reto634
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        int casos, totalPuntos, puntosActuales;    
+        String linea;
+        
+        // Leemos el número de casos y el salto de línea posterior
+        casos = sc.nextInt();
+        sc.nextLine();
+        
+        for(int i = 0; i < casos; i++)
+        {
+            // Leemos el caso de prueba
+            linea = sc.nextLine();
+            // Inicializamos contadores de puntos para este caso
+            totalPuntos = puntosActuales = 0;
+
+            // Leemos del inicio al fin del string
+            for(int j = 0; j < linea.length(); j++)
+            {
+                // Con charAt(j) accedemos a cada carácter
+                if(linea.charAt(j) == 'O')
+                {
+                    // Si es una O incrementamos el 10 los puntos
+                    // de la nota actual
+                    puntosActuales += 10;
+                    // Acumulamos los puntos
+                    totalPuntos += puntosActuales;
+                }
+                else
+                {
+                    // Si es un punto reseteamos la puntuación acumulada a 0
+                    puntosActuales = 0;
+                }
+            }
+            
+            System.out.println(totalPuntos);
+        }
+    }
+}
+```
+
+<div class="ejercicio">
+    <p><strong>Ejercicio 6:</strong></p>
+    <p>Trata de resolver este reto en C++ y comprueba que la plataforma lo acepta.</p>
+</div>
+
+### 4.1. El ojo de Sauron
+
+En <a href="https://open.kattis.com/problems/eyeofsauron" target="_blank">este reto</a> de *Kattis* debemos comprobar si un dibujo del ojo de Sauron (personaje de la saga de El Señor de los Anillos) es correcto. Este ojo está formado por una zona central compuesta por una llama (representada con dos paréntesis `()`), y a ambos lados la flanquean varias barras verticales. Por ejemplo:
+
+```
+|||||()|||||
+```
+
+Tenemos que determinar si el dibujo que hemos leído es correcto (*correct*) o necesita arreglarse (*fix*). Un dibujo es correcto si tiene el mismo número de barras verticales a ambos lados de la llama. Por ejemplo, el dibujo del ejemplo anterior sería correcto, y este otro necesita arreglarse:
+
+```
+||()||||
+```
+
+Se garantiza que siempre habrá una pareja de paréntesis en el dibujo, así que sólo tenemos que preocuparnos de determinar si el número de barras es igual a ambos lados.
+
+<div class="ejercicio">
+    <p><strong>Ejercicio 7:</strong></p>
+    <p>Trata de resolver este reto en C# y comprueba que la plataforma lo acepta.</p>
 </div>

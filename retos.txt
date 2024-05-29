@@ -76,7 +76,7 @@ LISTADO DE RETOS POR CATEGORIA O NIVEL
 ( ) Kattis: Betting (https://open.kattis.com/problems/betting)
 ( ) Kattis: Ladder (https://open.kattis.com/problems/ladder)
 (+) Acepta el Reto: 350 - El triángulo de mayor área (https://aceptaelreto.com/problem/statement.php?id=350)
-( ) Acepta el Reto: 239 - Pi.Pi.Pi.Pi.Pi.Piiii (https://aceptaelreto.com/problem/statement.php?id=239)
+(*) Acepta el Reto: 239 - Pi.Pi.Pi.Pi.Pi.Piiii (https://aceptaelreto.com/problem/statement.php?id=239)
 (+) Acepta el Reto: 576 - Leyendo el diccionario (https://aceptaelreto.com/problem/statement.php?id=576)
 (+) Acepta el Reto: 236 - Los orígenes del ajedrez (https://aceptaelreto.com/problem/statement.php?id=236)
 ( ) Acepta el Reto: 262 - Ada, Babbage y Bernouilli (https://aceptaelreto.com/problem/statement.php?id=262)
@@ -85,11 +85,11 @@ Específicos de textos:
 
 ( ) Acepta el Reto: 427 - Yo soy tu... (https://aceptaelreto.com/problem/statement.php?id=427)
 ( ) Acepta el Reto: 344 - Conectando cables (https://aceptaelreto.com/problem/statement.php?id=344)
-( ) Acepta el Reto: 634 - Bandurria Hero (https://aceptaelreto.com/problem/statement.php?id=634)
+(+) Acepta el Reto: 634 - Bandurria Hero (https://aceptaelreto.com/problem/statement.php?id=634)
 ( ) Kattis: Finding an A (https://open.kattis.com/problems/findingana)
 ( ) Kattis: Greetings (https://open.kattis.com/problems/greetings2)
 ( ) Kattis: Seven Wonders (https://open.kattis.com/problems/sevenwonders)
-( ) Kattis: Eye of Sauron (https://open.kattis.com/problems/eyeofsauron)
+(*) Kattis: Eye of Sauron (https://open.kattis.com/problems/eyeofsauron)
 ( ) Kattis: Hissing microphone (https://open.kattis.com/problems/hissingmicrophone)
 ( ) Kattis: Alphabet spam (https://open.kattis.com/problems/alphabetspam)
 
