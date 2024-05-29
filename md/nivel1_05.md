@@ -188,7 +188,7 @@ En <a href="https://aceptaelreto.com/problem/statement.php?id=664" target="_blan
 Cada caso de prueba que nos dan está compuesto por estos datos:
 
 * Primero nos dirán cuántos puentes tiene que atravesar el camión
-* Para cada puente, en la segunda línea nos dirán cuántos carriles hay en la autovía, y la altura que tiene cada carril al pasar bajo el puente
+* Para cada puente leeremos en una línea separada sus datos: cuántos carriles hay en la autovía, y la altura que tiene cada carril al pasar bajo el puente
 * El problema termina cuando leamos 0 puentes como primer dato del caso de prueba
 
 Como resultado tendremos que mostrar la altura máxima que puede tener el camión para poder pasar por debajo de cada puente (eligiendo el carril apropiado).
