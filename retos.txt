@@ -97,18 +97,17 @@ Específicos de textos:
 -----------------------------
 
 ( ) Acepta el Reto: 105 - Ventas (https://aceptaelreto.com/problem/statement.php?id=105)
-( ) Acepta el Reto: 485 - Senda pirenaica (https://aceptaelreto.com/problem/statement.php?id=485)
+(+) Acepta el Reto: 485 - Senda pirenaica (https://aceptaelreto.com/problem/statement.php?id=485)
 ( ) Acepta el Reto: 608 - Peligro por hielo (https://aceptaelreto.com/problem/statement.php?id=608) (no son necesarios los arrays)
-( ) Acepta el Reto: 151 - ¿Es matriz identidad? (https://aceptaelreto.com/problem/statement.php?id=151)
-( ) Acepta el Reto: 160 - Matrices triangulares (https://aceptaelreto.com/problem/statement.php?id=160)
-( ) Acepta el Reto: 458 - En la mente del timonel (https://aceptaelreto.com/problem/statement.php?id=458)
-( ) Acepta el Reto: 465 - El cuello de los pilotos (https://aceptaelreto.com/problem/statement.php?id=465)
+(+) Acepta el Reto: 151 - ¿Es matriz identidad? (https://aceptaelreto.com/problem/statement.php?id=151)
+(*) Acepta el Reto: 160 - Matrices triangulares (https://aceptaelreto.com/problem/statement.php?id=160)
+(+) Acepta el Reto: 458 - En la mente del timonel (https://aceptaelreto.com/problem/statement.php?id=458)
 ( ) Kattis: Cold-puter science (https://open.kattis.com/problems/cold)
 ( ) Kattis: Missing numbers (https://open.kattis.com/problems/missingnumbers)
-( ) Kattis: Plants vs Bad Guys (https://open.kattis.com/problems/pvbg)
+(*) Kattis: Plants vs Bad Guys (https://open.kattis.com/problems/pvbg)
 ( ) Kattis: Pet (https://open.kattis.com/problems/pet)
 ( ) Kattis: Dice Cup (https://open.kattis.com/problems/dicecup)
-( ) Codewars: Highest rank number in array (https://www.codewars.com/kata/5420fc9bb5b2c7fd57000004)
+(*) Codewars: Highest rank number in array (https://www.codewars.com/kata/5420fc9bb5b2c7fd57000004)
 ( ) Codewars: Numbers with this digit inside (https://www.codewars.com/kata/57ad85bb7cb1f3ae7c000039)
 
 02.02. Operaciones avanzadas con textos
@@ -137,6 +136,7 @@ Específicos de textos:
 ( ) Acepta el Reto: 478 - Conjuritis (https://aceptaelreto.com/problem/statement.php?id=478)
 ( ) Acepta el Reto: 171 - Abadías pirenaicas (*POR RESOLVER)(https://aceptaelreto.com/problem/statement.php?id=171)
 ( ) Acepta el Reto: 641 - Incidencia acumulada (https://aceptaelreto.com/problem/statement.php?id=641)
+( ) Acepta el Reto: 465 - El cuello de los pilotos (https://aceptaelreto.com/problem/statement.php?id=465)
 
 02.04. Algoritmos voraces
 -------------------------
