@@ -115,17 +115,17 @@ Específicos de textos:
 
 ( ) Acepta el Reto: 623 - El Joker de la primitiva (https://aceptaelreto.com/problem/statement.php?id=623)
 ( ) Acepta el Reto: 154 - ¿Cuál es la siguiente matrícula? (https://aceptaelreto.com/problem/statement.php?id=154)
-( ) Acepta el Reto: 178 - Quinto milenio (https://aceptaelreto.com/problem/statement.php?id=178)
-( ) Acepta el Reto: 475 - Cameos de Stan Lee (https://aceptaelreto.com/problem/statement.php?id=475)
+(*) Acepta el Reto: 178 - Quinto milenio (https://aceptaelreto.com/problem/statement.php?id=178)
+(+) Acepta el Reto: 475 - Cameos de Stan Lee (https://aceptaelreto.com/problem/statement.php?id=475)
 ( ) Acepta el Reto: 153 - Reloj a través del espejo (https://aceptaelreto.com/problem/statement.php?id=153)
-( ) Acepta el Reto: 466 - Multiplicando mal (https://aceptaelreto.com/problem/statement.php?id=466) -> Se hace mejor usando funciones
+(+) Acepta el Reto: 466 - Multiplicando mal (https://aceptaelreto.com/problem/statement.php?id=466) -> Se hace mejor usando funciones
 ( ) Acepta el Reto: 616 - Pic, poc, pic... pong! (https://aceptaelreto.com/problem/statement.php?id=616)
 ( ) Acepta el Reto: 617 - Mensajes en Space Invaders (https://aceptaelreto.com/problem/statement.php?id=617)
 ( ) Kattis: Poker hand (https://open.kattis.com/problems/pokerhand)
 ( ) Kattis: Speed limit (https://open.kattis.com/problems/speedlimit)
-( ) Kattis: Simon says (https://open.kattis.com/problems/simonsays)
-( ) Kattis: Code to save lives (https://open.kattis.com/problems/codetosavelives)
-( ) Kattis: Honour Thy (Apaxian) Parent (https://open.kattis.com/problems/apaxianparent)
+(+) Kattis: Simon says (https://open.kattis.com/problems/simonsays)
+(*) Kattis: Code to save lives (https://open.kattis.com/problems/codetosavelives)
+(*) Kattis: Honour Thy (Apaxian) Parent (https://open.kattis.com/problems/apaxianparent)
 
 02.03. Mejorando la eficiencia
 ------------------------------
