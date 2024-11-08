@@ -142,9 +142,10 @@ Específicos de textos:
 -------------------------
 
 ( ) Acepta el Reto: 194 - Salvemos al lince ibérico (https://aceptaelreto.com/problem/statement.php?id=194)
-( ) Acepta el Reto: 284 - La tienda de la esquina (https://aceptaelreto.com/problem/statement.php?id=284)
+(+) Acepta el Reto: 282 - Agujeros en la manguera (https://aceptaelreto.com/problem/statement.php?id=282)
+(*) Acepta el Reto: 284 - La tienda de la esquina (https://aceptaelreto.com/problem/statement.php?id=284)
+(*) Acepta el Reto: 409 - Seleccionando castellers (https://aceptaelreto.com/problem/statement.php?id=409)
 ( ) Acepta el Reto: 650 - Oferta 3x2 (https://aceptaelreto.com/problem/statement.php?id=650)
-Reto de los castellers
 
 03.01. Problemas recursivos simples
 -----------------------------------
