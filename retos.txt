@@ -26,7 +26,7 @@ LISTADO DE RETOS POR CATEGORIA O NIVEL
 ( ) Kattis: Stuck in a time loop (https://open.kattis.com/problems/timeloop)
 (*) Kattis: Take two stones (https://open.kattis.com/problems/twostones)
 ( ) Kattis: Echo echo echo (https://open.kattis.com/problems/echoechoecho)
-( ) Kattis: IsItHalloween.com (https://open.kattis.com/problems/isithalloween)
+(C) Kattis: IsItHalloween.com (https://open.kattis.com/problems/isithalloween)
 ( ) Kattis: Solving for carrots (https://open.kattis.com/problems/carrots)
 ( ) Codewars: Multiples of 3 or 5 (https://www.codewars.com/kata/514b92a657cdc65150000006)
 (*) Codewars: If you can't sleep, just count sheep!! (https://www.codewars.com/kata/5b077ebdaf15be5c7f000077)
@@ -52,7 +52,7 @@ LISTADO DE RETOS POR CATEGORIA O NIVEL
 (C) Acepta el Reto: 710 - Plazas disponibles en el mundial (https://aceptaelreto.com/problem/statement.php?id=710)
 (+) Kattis: FYI (https://open.kattis.com/problems/fyi)
 (*) Kattis: Building pyramids (https://open.kattis.com/problems/pyramids)
-( ) Kattis: Tarifa (https://open.kattis.com/problems/tarifa)
+(C) Kattis: Tarifa (https://open.kattis.com/problems/tarifa)
 ( ) Codewars: Previous multiple of three (https://www.codewars.com/kata/61123a6f2446320021db987d)
 (*) Codewars: Twice as old (https://www.codewars.com/kata/5b853229cfde412a470000d0)
 (+) Codewars: Leap years (https://www.codewars.com/kata/526c7363236867513f0005ca)
@@ -91,7 +91,7 @@ Específicos de textos:
 (+) Acepta el Reto: 634 - Bandurria Hero (https://aceptaelreto.com/problem/statement.php?id=634)
 ( ) Kattis: Finding an A (https://open.kattis.com/problems/findingana)
 (P) Kattis: Greetings (https://open.kattis.com/problems/greetings2)
-( ) Kattis: Seven Wonders (https://open.kattis.com/problems/sevenwonders)
+(C) Kattis: Seven Wonders (https://open.kattis.com/problems/sevenwonders)
 (*) Kattis: Eye of Sauron (https://open.kattis.com/problems/eyeofsauron)
 ( ) Kattis: Hissing microphone (https://open.kattis.com/problems/hissingmicrophone)
 ( ) Kattis: Alphabet spam (https://open.kattis.com/problems/alphabetspam)
@@ -109,7 +109,7 @@ Específicos de textos:
 (P) Kattis: Missing numbers (https://open.kattis.com/problems/missingnumbers)
 (*) Kattis: Plants vs Bad Guys (https://open.kattis.com/problems/pvbg)
 ( ) Kattis: Pet (https://open.kattis.com/problems/pet)
-( ) Kattis: Dice Cup (https://open.kattis.com/problems/dicecup)
+(C) Kattis: Dice Cup (https://open.kattis.com/problems/dicecup)
 (*) Codewars: Highest rank number in array (https://www.codewars.com/kata/5420fc9bb5b2c7fd57000004)
 ( ) Codewars: Numbers with this digit inside (https://www.codewars.com/kata/57ad85bb7cb1f3ae7c000039)
 
@@ -130,6 +130,8 @@ Específicos de textos:
 (+) Kattis: Simon says (https://open.kattis.com/problems/simonsays)
 (*) Kattis: Code to save lives (https://open.kattis.com/problems/codetosavelives)
 (*) Kattis: Honour Thy (Apaxian) Parent (https://open.kattis.com/problems/apaxianparent)
+(C) Kattis: Erase securely (https://open.kattis.com/problems/erase)
+(C) Kattis: Baby bites (https://open.kattis.com/problems/babybites)
 
 02.03. Mejorando la eficiencia
 ------------------------------
