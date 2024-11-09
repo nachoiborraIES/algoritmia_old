@@ -4,6 +4,7 @@ LISTADO DE RETOS POR CATEGORIA O NIVEL
 (+) - Retos resueltos en la web
 (*) - Retos planteados en la web
 (C) - Reservados para concursos en clase
+(P) - Reservados para prácticas opcionales
 ( ) - Retos posibles, pero no planteados
 
 01.01. Introducción
@@ -21,7 +22,7 @@ LISTADO DE RETOS POR CATEGORIA O NIVEL
 (+) Codewars: How many lightsabers do you own? (https://www.codewars.com/kata/51f9d93b4095e0a7200001b8)
 
 (*) Acepta el Reto: 369 - Contando en la arena (https://aceptaelreto.com/problem/statement.php?id=369)
-( ) Acepta el Reto: 621 - La otra página (https://aceptaelreto.com/problem/statement.php?id=621)
+(P) Acepta el Reto: 621 - La otra página (https://aceptaelreto.com/problem/statement.php?id=621)
 ( ) Kattis: Stuck in a time loop (https://open.kattis.com/problems/timeloop)
 (*) Kattis: Take two stones (https://open.kattis.com/problems/twostones)
 ( ) Kattis: Echo echo echo (https://open.kattis.com/problems/echoechoecho)
@@ -35,18 +36,20 @@ LISTADO DE RETOS POR CATEGORIA O NIVEL
 
 (+) Acepta el Reto: 413 - Claras y oscuras (https://aceptaelreto.com/problem/statement.php?id=413)
 (*) Acepta el Reto: 474 - Tu amigable vecino (https://aceptaelreto.com/problem/statement.php?id=474)
-( ) Acepta el Reto: 403 - En campos de fútbol (https://aceptaelreto.com/problem/statement.php?id=403)
+(P) Acepta el Reto: 403 - En campos de fútbol (https://aceptaelreto.com/problem/statement.php?id=403)
 ( ) Acepta el Reto: 119 - Escudos del ejército romano (https://aceptaelreto.com/problem/statement.php?id=119)
 ( ) Acepta el Reto: 191 - Los problemas de ser rico (https://aceptaelreto.com/problem/statement.php?id=191)
 ( ) Acepta el Reto: 354 - Los niños primero (https://aceptaelreto.com/problem/statement.php?id=354)
-( ) Acepta el Reto: 371 - Aburrimiento en las sobremesas (https://aceptaelreto.com/problem/statement.php?id=371)
-( ) Acepta el Reto: 407 - Rebotando en el parchís (https://aceptaelreto.com/problem/statement.php?id=407)
-( ) Acepta el Reto: 471 - Buscando el pinchazo (https://aceptaelreto.com/problem/mysubmissions.php?id=471)
-( ) Acepta el Reto: 532 - Reduciendo envases (https://aceptaelreto.com/problem/statement.php?id=532)
-( ) Acepta el Reto: 607 - Minimizando el castigo (https://aceptaelreto.com/problem/statement.php?id=607)
+(C) Acepta el Reto: 371 - Aburrimiento en las sobremesas (https://aceptaelreto.com/problem/statement.php?id=371)
+(C) Acepta el Reto: 407 - Rebotando en el parchís (https://aceptaelreto.com/problem/statement.php?id=407)
+(C) Acepta el Reto: 471 - Buscando el pinchazo (https://aceptaelreto.com/problem/mysubmissions.php?id=471)
+(C) Acepta el Reto: 532 - Reduciendo envases (https://aceptaelreto.com/problem/statement.php?id=532)
+(C) Acepta el Reto: 607 - Minimizando el castigo (https://aceptaelreto.com/problem/statement.php?id=607)
 ( ) Acepta el Reto: 577 - Cucharadas de sopa (https://aceptaelreto.com/problem/statement.php?id=577)
-( ) Acepta el Reto: 615 - La pulga (https://aceptaelreto.com/problem/statement.php?id=615)
+(C) Acepta el Reto: 615 - La pulga (https://aceptaelreto.com/problem/statement.php?id=615)
 (C) Acepta el Reto: 635 - Cinquecento (https://aceptaelreto.com/problem/statement.php?id=635)
+(C) Acepta el Reto: 638 - Familia numerosa (https://aceptaelreto.com/problem/statement.php?id=638)
+(C) Acepta el Reto: 710 - Plazas disponibles en el mundial (https://aceptaelreto.com/problem/statement.php?id=710)
 (+) Kattis: FYI (https://open.kattis.com/problems/fyi)
 (*) Kattis: Building pyramids (https://open.kattis.com/problems/pyramids)
 ( ) Kattis: Tarifa (https://open.kattis.com/problems/tarifa)
@@ -64,16 +67,16 @@ LISTADO DE RETOS POR CATEGORIA O NIVEL
 (+) Acepta el Reto: 158 - Los saltos de Mario (https://aceptaelreto.com/problem/statement.php?id=158)
 (*) Acepta el Reto: 664 - Gálibo (https://aceptaelreto.com/problem/statement.php?id=664)
 (+) Acepta el Reto: 150 - ¡A dibujar hexágonos! (https://aceptaelreto.com/problem/statement.php?id=150)
-( ) Acepta el Reto: 162 - Tableros de ajedrez (https://aceptaelreto.com/problem/statement.php?id=162)
+(P) Acepta el Reto: 162 - Tableros de ajedrez (https://aceptaelreto.com/problem/statement.php?id=162)
 (*) Acepta el Reto: 622 - La media prometida (https://aceptaelreto.com/problem/statement.php?id=622)
-( ) Acepta el Reto: 472 - Caminando voy (https://aceptaelreto.com/problem/statement.php?id=472)
+(P) Acepta el Reto: 472 - Caminando voy (https://aceptaelreto.com/problem/statement.php?id=472)
 ( ) Acepta el Reto: 411 - Sobre la tela de una araña (https://aceptaelreto.com/problem/statement.php?id=411)
 
 01.05. Trabajando con tipos de datos
 ------------------------------------
 
 (*) Kattis: Metronome (https://open.kattis.com/problems/metronome)
-( ) Kattis: Betting (https://open.kattis.com/problems/betting)
+(P) Kattis: Betting (https://open.kattis.com/problems/betting)
 ( ) Kattis: Ladder (https://open.kattis.com/problems/ladder)
 (+) Acepta el Reto: 350 - El triángulo de mayor área (https://aceptaelreto.com/problem/statement.php?id=350)
 (*) Acepta el Reto: 239 - Pi.Pi.Pi.Pi.Pi.Piiii (https://aceptaelreto.com/problem/statement.php?id=239)
@@ -83,11 +86,11 @@ LISTADO DE RETOS POR CATEGORIA O NIVEL
 
 Específicos de textos:
 
-( ) Acepta el Reto: 427 - Yo soy tu... (https://aceptaelreto.com/problem/statement.php?id=427)
-( ) Acepta el Reto: 344 - Conectando cables (https://aceptaelreto.com/problem/statement.php?id=344)
+(C) Acepta el Reto: 427 - Yo soy tu... (https://aceptaelreto.com/problem/statement.php?id=427)
+(P) Acepta el Reto: 344 - Conectando cables (https://aceptaelreto.com/problem/statement.php?id=344)
 (+) Acepta el Reto: 634 - Bandurria Hero (https://aceptaelreto.com/problem/statement.php?id=634)
 ( ) Kattis: Finding an A (https://open.kattis.com/problems/findingana)
-( ) Kattis: Greetings (https://open.kattis.com/problems/greetings2)
+(P) Kattis: Greetings (https://open.kattis.com/problems/greetings2)
 ( ) Kattis: Seven Wonders (https://open.kattis.com/problems/sevenwonders)
 (*) Kattis: Eye of Sauron (https://open.kattis.com/problems/eyeofsauron)
 ( ) Kattis: Hissing microphone (https://open.kattis.com/problems/hissingmicrophone)
@@ -96,14 +99,14 @@ Específicos de textos:
 02.01. Operaciones con arrays
 -----------------------------
 
-( ) Acepta el Reto: 105 - Ventas (https://aceptaelreto.com/problem/statement.php?id=105)
+(C) Acepta el Reto: 105 - Ventas (https://aceptaelreto.com/problem/statement.php?id=105)
 (+) Acepta el Reto: 485 - Senda pirenaica (https://aceptaelreto.com/problem/statement.php?id=485)
-( ) Acepta el Reto: 608 - Peligro por hielo (https://aceptaelreto.com/problem/statement.php?id=608) (no son necesarios los arrays)
+(C) Acepta el Reto: 608 - Peligro por hielo (https://aceptaelreto.com/problem/statement.php?id=608) (no son necesarios los arrays)
 (+) Acepta el Reto: 151 - ¿Es matriz identidad? (https://aceptaelreto.com/problem/statement.php?id=151)
 (*) Acepta el Reto: 160 - Matrices triangulares (https://aceptaelreto.com/problem/statement.php?id=160)
 (+) Acepta el Reto: 458 - En la mente del timonel (https://aceptaelreto.com/problem/statement.php?id=458)
 ( ) Kattis: Cold-puter science (https://open.kattis.com/problems/cold)
-( ) Kattis: Missing numbers (https://open.kattis.com/problems/missingnumbers)
+(P) Kattis: Missing numbers (https://open.kattis.com/problems/missingnumbers)
 (*) Kattis: Plants vs Bad Guys (https://open.kattis.com/problems/pvbg)
 ( ) Kattis: Pet (https://open.kattis.com/problems/pet)
 ( ) Kattis: Dice Cup (https://open.kattis.com/problems/dicecup)
@@ -113,15 +116,16 @@ Específicos de textos:
 02.02. Operaciones avanzadas con textos
 ---------------------------------------
 
-( ) Acepta el Reto: 623 - El Joker de la primitiva (https://aceptaelreto.com/problem/statement.php?id=623)
-( ) Acepta el Reto: 154 - ¿Cuál es la siguiente matrícula? (https://aceptaelreto.com/problem/statement.php?id=154)
+(C) Acepta el Reto: 623 - El Joker de la primitiva (https://aceptaelreto.com/problem/statement.php?id=623)
+(P) Acepta el Reto: 154 - ¿Cuál es la siguiente matrícula? (https://aceptaelreto.com/problem/statement.php?id=154)
 (*) Acepta el Reto: 178 - Quinto milenio (https://aceptaelreto.com/problem/statement.php?id=178)
 (+) Acepta el Reto: 475 - Cameos de Stan Lee (https://aceptaelreto.com/problem/statement.php?id=475)
 ( ) Acepta el Reto: 153 - Reloj a través del espejo (https://aceptaelreto.com/problem/statement.php?id=153)
 (+) Acepta el Reto: 466 - Multiplicando mal (https://aceptaelreto.com/problem/statement.php?id=466) -> Se hace mejor usando funciones
-( ) Acepta el Reto: 616 - Pic, poc, pic... pong! (https://aceptaelreto.com/problem/statement.php?id=616)
-( ) Acepta el Reto: 617 - Mensajes en Space Invaders (https://aceptaelreto.com/problem/statement.php?id=617)
-( ) Kattis: Poker hand (https://open.kattis.com/problems/pokerhand)
+(C) Acepta el Reto: 616 - Pic, poc, pic... pong! (https://aceptaelreto.com/problem/statement.php?id=616)
+(C) Acepta el Reto: 617 - Mensajes en Space Invaders (https://aceptaelreto.com/problem/statement.php?id=617)
+(C) Acepta el Reto: 711 - Verificación de las entradas (https://aceptaelreto.com/problem/statement.php?id=711)
+(P) Kattis: Poker hand (https://open.kattis.com/problems/pokerhand)
 ( ) Kattis: Speed limit (https://open.kattis.com/problems/speedlimit)
 (+) Kattis: Simon says (https://open.kattis.com/problems/simonsays)
 (*) Kattis: Code to save lives (https://open.kattis.com/problems/codetosavelives)
@@ -135,7 +139,7 @@ Específicos de textos:
 (*) Acepta el Reto: 114 - Último dígito del factorial (https://aceptaelreto.com/problem/statement.php?id=114)
 ( ) Acepta el Reto: 478 - Conjuritis (https://aceptaelreto.com/problem/statement.php?id=478)
 ( ) Acepta el Reto: 171 - Abadías pirenaicas (*POR RESOLVER)(https://aceptaelreto.com/problem/statement.php?id=171)
-( ) Acepta el Reto: 641 - Incidencia acumulada (https://aceptaelreto.com/problem/statement.php?id=641)
+(C) Acepta el Reto: 641 - Incidencia acumulada (https://aceptaelreto.com/problem/statement.php?id=641)
 ( ) Acepta el Reto: 465 - El cuello de los pilotos (https://aceptaelreto.com/problem/statement.php?id=465)
 
 02.04. Algoritmos voraces
@@ -162,7 +166,7 @@ Específicos de textos:
 ( ) Acepta el Reto: 351 - Unidad Curiosa de Monitorización (https://aceptaelreto.com/problem/statement.php?id=351)
 ( ) Acepta el Reto: 366 - Los niños buenos (https://aceptaelreto.com/problem/statement.php?id=366)
 ( ) Acepta el Reto: 109 - Liga de pádel (https://aceptaelreto.com/problem/statement.php?id=109)
-( ) Acepta el Reto: 477 - A la captura del Doctor Muerte (https://aceptaelreto.com/problem/statement.php?id=477)
+(C) Acepta el Reto: 477 - A la captura del Doctor Muerte (https://aceptaelreto.com/problem/statement.php?id=477)
 
 03.03. Problemas de búsqueda de soluciones
 ------------------------------------------
@@ -184,6 +188,6 @@ Ejemplo de serie de Fibonacci y llamadas recursivas. Concepto de "programación 
 
 ( ) Acepta el Reto: 416 - Michael J. Fox y el Pato Donald (https://aceptaelreto.com/problem/statement.php?id=416)
 ( ) Acepta el Reto: 624 - Doblando calcetines (https://aceptaelreto.com/problem/statement.php?id=624)
-( ) Acepta el Reto: 633 - Arca de Noé (https://aceptaelreto.com/problem/statement.php?id=633)
-( ) Acepta el Reto: 637 - El telegrama más corto (https://aceptaelreto.com/problem/mysubmissions.php?id=637)
+(C) Acepta el Reto: 633 - Arca de Noé (https://aceptaelreto.com/problem/statement.php?id=633)
+(C) Acepta el Reto: 637 - El telegrama más corto (https://aceptaelreto.com/problem/mysubmissions.php?id=637)
 
