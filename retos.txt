@@ -78,6 +78,8 @@ LISTADO DE RETOS POR CATEGORIA O NIVEL
 (*) Kattis: Metronome (https://open.kattis.com/problems/metronome)
 (P) Kattis: Betting (https://open.kattis.com/problems/betting)
 ( ) Kattis: Ladder (https://open.kattis.com/problems/ladder)
+(C) Kattis: Rating Problems (https://open.kattis.com/problems/ratingproblems)
+(C) Kattis: Curse the Darkness (https://open.kattis.com/problems/cursethedarkness)
 (+) Acepta el Reto: 350 - El triángulo de mayor área (https://aceptaelreto.com/problem/statement.php?id=350)
 (*) Acepta el Reto: 239 - Pi.Pi.Pi.Pi.Pi.Piiii (https://aceptaelreto.com/problem/statement.php?id=239)
 (+) Acepta el Reto: 576 - Leyendo el diccionario (https://aceptaelreto.com/problem/statement.php?id=576)
@@ -95,6 +97,7 @@ Específicos de textos:
 (*) Kattis: Eye of Sauron (https://open.kattis.com/problems/eyeofsauron)
 ( ) Kattis: Hissing microphone (https://open.kattis.com/problems/hissingmicrophone)
 ( ) Kattis: Alphabet spam (https://open.kattis.com/problems/alphabetspam)
+(C) Kattis: Average Character (https://open.kattis.com/problems/averagecharacter)
 
 02.01. Operaciones con arrays
 -----------------------------
@@ -110,6 +113,8 @@ Específicos de textos:
 (*) Kattis: Plants vs Bad Guys (https://open.kattis.com/problems/pvbg)
 ( ) Kattis: Pet (https://open.kattis.com/problems/pet)
 (C) Kattis: Dice Cup (https://open.kattis.com/problems/dicecup)
+(C) Kattis: Monopoly (https://open.kattis.com/problems/monopol)
+(C) Kattis: Planting Trees (https://open.kattis.com/problems/plantingtrees)
 (*) Codewars: Highest rank number in array (https://www.codewars.com/kata/5420fc9bb5b2c7fd57000004)
 ( ) Codewars: Numbers with this digit inside (https://www.codewars.com/kata/57ad85bb7cb1f3ae7c000039)
 
@@ -192,4 +197,4 @@ Ejemplo de serie de Fibonacci y llamadas recursivas. Concepto de "programación 
 ( ) Acepta el Reto: 624 - Doblando calcetines (https://aceptaelreto.com/problem/statement.php?id=624)
 (C) Acepta el Reto: 633 - Arca de Noé (https://aceptaelreto.com/problem/statement.php?id=633)
 (C) Acepta el Reto: 637 - El telegrama más corto (https://aceptaelreto.com/problem/mysubmissions.php?id=637)
-
+( ) Kattis: Gandalf's Spell (https://open.kattis.com/problems/gandalfsspell)
